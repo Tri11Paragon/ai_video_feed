@@ -1,0 +1,14 @@
+# ninja log v7
+3	368	1790882396140415669	CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o	1bb4459e223330fe
+2	370	1790882396139466168	CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o	5c16a2ab5bb1b699
+3	532	1790882396140628282	CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o	fc97fc7362f30264
+3	596	1790882396140829173	CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o	f13caf99f42c13c2
+2	741	1790882396139076088	CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o	eab0c45c8882b63e
+2	742	1790882396139649035	CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o	553c68e8d774ffdc
+2	798	1790882396139286147	CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o	d48cd296fc7faa62
+3	918	1790882396140235207	CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o	fe6d695286cf4ac3
+2	1037	1790882396139835839	CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o	a9e55cf000656355
+3	1217	1790882396140020910	CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o	7ccd7b343a957038
+1	1261	1790882396138458998	CMakeFiles/video_feed.dir/src/video.cpp.o	682c89f8618dd7d
+1	3568	1790882396137744553	CMakeFiles/video_feed.dir/src/main.cpp.o	a82fb015629d42ad
+1	6732	1790882396138846112	CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o	a831da1444ef4aaa
