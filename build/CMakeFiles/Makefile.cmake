@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/cmake/opencv4/OpenCVConfig-version.cmake"
-  "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/cmake/opencv4/OpenCVConfig.cmake"
-  "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/cmake/opencv4/OpenCVModules-release.cmake"
-  "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/cmake/opencv4/OpenCVModules.cmake"
   "/home/brett/Documents/code/milkv/video_feed/CMakeLists.txt"
   "CMakeFiles/4.1.6/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.6/CMakeCXXCompiler.cmake"
@@ -28,8 +24,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-C.cmake"
   "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake"
   "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU.cmake"
-  "/run/current-system/sw/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
-  "/run/current-system/sw/share/cmake-4.1/Modules/FindPackageMessage.cmake"
   "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"

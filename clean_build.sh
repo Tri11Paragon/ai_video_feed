@@ -1,3 +1,3 @@
-rm -fr build/
-make build
+rm -fr build/ build
+mkdir -p build
 ./build.sh

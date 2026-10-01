@@ -15,21 +15,22 @@ include_directories(BLT/libraries/parallel-hashmap)
 message("Sys: ${CMAKE_SYSROOT}")
 #include_directories(${CMAKE_SYSROOT}/usr/include)
 
-set(OPENCV_ENABLE_NONFREE ON)
-set(OpenCV_DIR ${CMAKE_SYSROOT}/usr/lib/cmake/opencv4/)
-find_package(OpenCV REQUIRED core videoio)
+#set(OPENCV_ENABLE_NONFREE ON)
+#set(OpenCV_DIR ${CMAKE_SYSROOT}/usr/lib/cmake/opencv4/)
+#find_package(OpenCV REQUIRED core videoio)
 
-file(GLOB_RECURSE PROJECT_BUILD_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
-
-#link_libraries(${CMAKE_SYSROOT}/usr/lib/)
+set(PROJECT_BUILD_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/yolo.cpp")
 
 add_executable(video_feed ${PROJECT_BUILD_FILES} BLT/src/blt/parse/argparse_v2.cpp BLT/src/blt/std/string_algo.cpp BLT/src/blt/std/assert.cpp BLT/src/blt/logging/ansi.cpp BLT/src/blt/logging/fmt_tokenizer.cpp BLT/src/blt/logging/logging.cpp BLT/src/blt/logging/logging_config.cpp BLT/src/blt/logging/status.cpp BLT/src/blt/fs/stream_wrappers.cpp BLT/src/blt/fs/file_writers.cpp BLT/src/blt/fs/path_helper.cpp)
 
+set(SDK_SYS_LIB /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/install/soc_sg2000_milkv_duos_musl_riscv64_sd/tmp-rootfs/mnt/system/lib)
+set(SDK_SYS_USR_LIB /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/install/soc_sg2000_milkv_duos_musl_riscv64_sd/tmp-rootfs/mnt/system/usr/lib)
+
 target_compile_options(video_feed PRIVATE -Wall -Wno-comment -mcpu=c906fdv -march=rv64imafdcv0p7xthead -mcmodel=medany -mabi=lp64d)
-target_link_options(video_feed PRIVATE -Wall -Wno-comment -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lavformat -lavdevice -lavcodec -lavutil -lswscale -lpthread)
+target_link_options(video_feed PRIVATE -Wall -Wno-comment -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lpthread -Wl,-rpath,/mnt/system/lib:/mnt/system/usr/lib:/usr/lib -Wl,-rpath-link,${SDK_SYS_LIB} -Wl,-rpath-link,${SDK_SYS_USR_LIB})
 
 target_include_directories(video_feed PUBLIC
-    ${OpenCV_INCLUDE_DIRS}
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/include
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/include
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/include/cvi_tdl
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/include/cvi_tdl_app
@@ -38,43 +39,56 @@ target_include_directories(video_feed PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/isp/cv181x
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/rtsp/include
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/rtsp/include/cvi_rtsp
-    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/tpu/include
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/utils
-    ${CMAKE_CURRENT_SOURCE_DIR}/duo-tdl-examples/include/system
-    ${CMAKE_CURRENT_SOURCE_DIR}/duo-tdl-examples/include/tdl
 )
 target_link_libraries(video_feed PUBLIC
-    ${OpenCV_LIBS}
-    cvi_tdl
+    -Wl,--start-group
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/lib/libcvi_tdl.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/lib/libcvi_draw_rect.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/lib/libcvi_preprocess.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/lib/libcvi_md.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libvpu.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libsys.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libvdec.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libvenc.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libcvi_ive.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libcvi_bin.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libcvi_bin_isp.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libisp.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libisp_algo.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libae.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libawb.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libaf.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libsample.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libsns_full.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libmisc.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd/libini.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd/libcli.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd/libjson-c.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib/libopencv_imgcodecs.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib/libopencv_imgproc.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib/libopencv_core.a
+    -Wl,--end-group
     cvi_rtsp
     cviruntime
     cvimath
     cvikernel
-    cvi_ive
-    cvi_draw_rect
-    cvi_preprocess
-    vdec
-    venc
-    vpss
-    vi
-    vo
-    rgn
-    gdc
-    sys
-    cvi_bin
-    cvi_bin_isp
-    misc
-    sample
+    cnpy
     pthread
     atomic
+    m
+    z
 )
 target_link_directories(video_feed PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/lib
-    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib
-    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/rtsp/lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib
     ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/tpu/lib
-    ${CMAKE_CURRENT_SOURCE_DIR}/duo-tdl-examples/libs/system/musl_riscv64
-    ${CMAKE_CURRENT_SOURCE_DIR}/duo-tdl-examples/libs/tdl/cv181x_riscv64
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd
+    ${CMAKE_CURRENT_SOURCE_DIR}/cvitek-tdl-sdk-sg200x/sample/3rd/rtsp/lib
+    ${SDK_SYS_LIB}
+    ${SDK_SYS_USR_LIB}
+    ${SDK_SYS_USR_LIB}/3rd
 )
 
 if (${ENABLE_ADDRSAN} MATCHES ON)

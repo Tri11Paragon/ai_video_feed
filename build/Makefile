@@ -393,54 +393,6 @@ BLT/src/blt/std/string_algo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.s
 .PHONY : BLT/src/blt/std/string_algo.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
-src/video.o: src/video.cpp.o
-.PHONY : src/video.o
-
-# target to build an object file
-src/video.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/src/video.cpp.o
-.PHONY : src/video.cpp.o
-
-src/video.i: src/video.cpp.i
-.PHONY : src/video.i
-
-# target to preprocess a source file
-src/video.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/src/video.cpp.i
-.PHONY : src/video.cpp.i
-
-src/video.s: src/video.cpp.s
-.PHONY : src/video.s
-
-# target to generate assembly for a file
-src/video.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/src/video.cpp.s
-.PHONY : src/video.cpp.s
-
 src/yolo.o: src/yolo.cpp.o
 .PHONY : src/yolo.o
 
@@ -507,12 +459,6 @@ help:
 	@echo "... BLT/src/blt/std/string_algo.o"
 	@echo "... BLT/src/blt/std/string_algo.i"
 	@echo "... BLT/src/blt/std/string_algo.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/video.o"
-	@echo "... src/video.i"
-	@echo "... src/video.s"
 	@echo "... src/yolo.o"
 	@echo "... src/yolo.i"
 	@echo "... src/yolo.s"

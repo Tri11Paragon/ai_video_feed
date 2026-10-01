@@ -72,38 +72,10 @@ include CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/codegen:
 .PHONY : CMakeFiles/video_feed.dir/codegen
 
-CMakeFiles/video_feed.dir/src/main.cpp.o: CMakeFiles/video_feed.dir/flags.make
-CMakeFiles/video_feed.dir/src/main.cpp.o: /home/brett/Documents/code/milkv/video_feed/src/main.cpp
-CMakeFiles/video_feed.dir/src/main.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_feed.dir/src/main.cpp.o"
-	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/src/main.cpp.o -MF CMakeFiles/video_feed.dir/src/main.cpp.o.d -o CMakeFiles/video_feed.dir/src/main.cpp.o -c /home/brett/Documents/code/milkv/video_feed/src/main.cpp
-
-CMakeFiles/video_feed.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_feed.dir/src/main.cpp.i"
-	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brett/Documents/code/milkv/video_feed/src/main.cpp > CMakeFiles/video_feed.dir/src/main.cpp.i
-
-CMakeFiles/video_feed.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_feed.dir/src/main.cpp.s"
-	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brett/Documents/code/milkv/video_feed/src/main.cpp -o CMakeFiles/video_feed.dir/src/main.cpp.s
-
-CMakeFiles/video_feed.dir/src/video.cpp.o: CMakeFiles/video_feed.dir/flags.make
-CMakeFiles/video_feed.dir/src/video.cpp.o: /home/brett/Documents/code/milkv/video_feed/src/video.cpp
-CMakeFiles/video_feed.dir/src/video.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/video_feed.dir/src/video.cpp.o"
-	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/src/video.cpp.o -MF CMakeFiles/video_feed.dir/src/video.cpp.o.d -o CMakeFiles/video_feed.dir/src/video.cpp.o -c /home/brett/Documents/code/milkv/video_feed/src/video.cpp
-
-CMakeFiles/video_feed.dir/src/video.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_feed.dir/src/video.cpp.i"
-	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brett/Documents/code/milkv/video_feed/src/video.cpp > CMakeFiles/video_feed.dir/src/video.cpp.i
-
-CMakeFiles/video_feed.dir/src/video.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_feed.dir/src/video.cpp.s"
-	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brett/Documents/code/milkv/video_feed/src/video.cpp -o CMakeFiles/video_feed.dir/src/video.cpp.s
-
 CMakeFiles/video_feed.dir/src/yolo.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video_feed/src/yolo.cpp
 CMakeFiles/video_feed.dir/src/yolo.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/video_feed.dir/src/yolo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_feed.dir/src/yolo.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/src/yolo.cpp.o -MF CMakeFiles/video_feed.dir/src/yolo.cpp.o.d -o CMakeFiles/video_feed.dir/src/yolo.cpp.o -c /home/brett/Documents/code/milkv/video_feed/src/yolo.cpp
 
 CMakeFiles/video_feed.dir/src/yolo.cpp.i: cmake_force
@@ -117,7 +89,7 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/parse/argparse_v2.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/parse/argparse_v2.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.i: cmake_force
@@ -131,7 +103,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/std/string_algo.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/std/string_algo.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.i: cmake_force
@@ -145,7 +117,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/std/assert.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/std/assert.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.i: cmake_force
@@ -159,7 +131,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/ansi.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/ansi.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.i: cmake_force
@@ -173,7 +145,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/fmt_tokenizer.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/fmt_tokenizer.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.i: cmake_force
@@ -187,7 +159,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/logging.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/logging.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.i: cmake_force
@@ -201,7 +173,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/logging_config.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/logging_config.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.i: cmake_force
@@ -215,7 +187,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/status.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/status.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.i: cmake_force
@@ -229,7 +201,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/stream_wrappers.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/stream_wrappers.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.i: cmake_force
@@ -243,7 +215,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/file_writers.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/file_writers.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.i: cmake_force
@@ -257,7 +229,7 @@ CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.s: cmake_force
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o: CMakeFiles/video_feed.dir/flags.make
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o: /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/path_helper.cpp
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o: CMakeFiles/video_feed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o"
 	/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o -MF CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o.d -o CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o -c /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/path_helper.cpp
 
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.i: cmake_force
@@ -270,8 +242,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.s: cmake_force
 
 # Object files for target video_feed
 video_feed_OBJECTS = \
-"CMakeFiles/video_feed.dir/src/main.cpp.o" \
-"CMakeFiles/video_feed.dir/src/video.cpp.o" \
 "CMakeFiles/video_feed.dir/src/yolo.cpp.o" \
 "CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o" \
 "CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o" \
@@ -288,8 +258,6 @@ video_feed_OBJECTS = \
 # External object files for target video_feed
 video_feed_EXTERNAL_OBJECTS =
 
-video_feed: CMakeFiles/video_feed.dir/src/main.cpp.o
-video_feed: CMakeFiles/video_feed.dir/src/video.cpp.o
 video_feed: CMakeFiles/video_feed.dir/src/yolo.cpp.o
 video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o
 video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o
@@ -303,12 +271,33 @@ video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o
 video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o
 video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o
 video_feed: CMakeFiles/video_feed.dir/build.make
-video_feed: /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/libopencv_videoio.so.4.10.0
-video_feed: /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/libopencv_imgcodecs.so.4.10.0
-video_feed: /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/libopencv_imgproc.so.4.10.0
-video_feed: /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/libopencv_core.so.4.10.0
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/lib/libcvi_tdl.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/lib/libcvi_draw_rect.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/lib/libcvi_preprocess.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/lib/libcvi_md.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libvpu.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libsys.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libvdec.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libvenc.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libcvi_ive.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libcvi_bin.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libcvi_bin_isp.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libisp.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libisp_algo.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libae.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libawb.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libaf.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libsample.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libsns_full.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/libmisc.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd/libini.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd/libcli.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/lib/3rd/libjson-c.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib/libopencv_imgcodecs.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib/libopencv_imgproc.a
+video_feed: /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/opencv/lib/libopencv_core.a
 video_feed: CMakeFiles/video_feed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable video_feed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable video_feed"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/video_feed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
