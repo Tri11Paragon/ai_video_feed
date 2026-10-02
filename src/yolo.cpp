@@ -35,6 +35,7 @@
 #include <blt/parse/argparse_v2.h>
 
 static std::atomic<bool> g_running{true};
+static std::atomic<bool> g_need_idr{true};
 
 static void sig_handler(int sig)
 {
@@ -42,24 +43,34 @@ static void sig_handler(int sig)
     g_running = false;
 }
 
-static void rtsp_on_connect(const char *ip, void *arg)
+static void rtsp_on_connect(const char* ip, void* arg)
 {
     (void)arg;
     std::cout << "[RTSP] Client connected: " << (ip ? ip : "unknown") << "\n";
+    g_need_idr = true;
 }
 
-static void rtsp_on_disconnect(const char *ip, void *arg)
+static void rtsp_on_disconnect(const char* ip, void* arg)
 {
     (void)arg;
     std::cout << "[RTSP] Client disconnected: " << (ip ? ip : "unknown") << "\n";
 }
 
-struct V4L2Buffer {
-    void *start = nullptr;
+static void rtsp_on_play(int references, void* arg)
+{
+    (void)references;
+    (void)arg;
+    g_need_idr = true;
+}
+
+struct V4L2Buffer
+{
+    void* start = nullptr;
     size_t length = 0;
 };
 
-struct CameraConfig {
+struct CameraConfig
+{
     std::string device = "/dev/video0";
     uint32_t width = 1280;
     uint32_t height = 720;
@@ -67,28 +78,33 @@ struct CameraConfig {
     uint32_t pixelformat = V4L2_PIX_FMT_MJPEG;
 };
 
-static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4L2Buffer> &buffers, uint32_t &negotiated_fmt)
+static int init_v4l2_camera(const CameraConfig& cfg, int& cam_fd, std::vector<V4L2Buffer>& buffers,
+                            uint32_t& negotiated_fmt)
 {
     cam_fd = open(cfg.device.c_str(), O_RDWR | O_NONBLOCK, 0);
-    if (cam_fd < 0) {
+    if (cam_fd < 0)
+    {
         std::cerr << "[V4L2] Failed to open camera device: " << cfg.device << " (" << strerror(errno) << ")\n";
         return -1;
     }
 
     struct v4l2_capability cap;
     memset(&cap, 0, sizeof(cap));
-    if (ioctl(cam_fd, VIDIOC_QUERYCAP, &cap) < 0) {
+    if (ioctl(cam_fd, VIDIOC_QUERYCAP, &cap) < 0)
+    {
         std::cerr << "[V4L2] VIDIOC_QUERYCAP failed: " << strerror(errno) << "\n";
         close(cam_fd);
         return -1;
     }
 
-    if (!(cap.capabilities & V4L2_CAP_VIDEO_CAPTURE)) {
+    if (!(cap.capabilities & V4L2_CAP_VIDEO_CAPTURE))
+    {
         std::cerr << "[V4L2] Device " << cfg.device << " does not support video capture.\n";
         close(cam_fd);
         return -1;
     }
-    if (!(cap.capabilities & V4L2_CAP_STREAMING)) {
+    if (!(cap.capabilities & V4L2_CAP_STREAMING))
+    {
         std::cerr << "[V4L2] Device " << cfg.device << " does not support streaming i/o.\n";
         close(cam_fd);
         return -1;
@@ -98,7 +114,8 @@ static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4
     bool fmt_set = false;
     struct v4l2_format fmt;
 
-    for (uint32_t f : preferred_fmts) {
+    for (uint32_t f : preferred_fmts)
+    {
         memset(&fmt, 0, sizeof(fmt));
         fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
         fmt.fmt.pix.width = cfg.width;
@@ -106,18 +123,20 @@ static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4
         fmt.fmt.pix.pixelformat = f;
         fmt.fmt.pix.field = V4L2_FIELD_ANY;
 
-        if (ioctl(cam_fd, VIDIOC_S_FMT, &fmt) == 0) {
+        if (ioctl(cam_fd, VIDIOC_S_FMT, &fmt) == 0)
+        {
             negotiated_fmt = fmt.fmt.pix.pixelformat;
             fmt_set = true;
             char fourcc[5] = {0};
             memcpy(fourcc, &negotiated_fmt, 4);
             std::cout << "[V4L2] Successfully configured format: " << fourcc
-                      << " (" << fmt.fmt.pix.width << "x" << fmt.fmt.pix.height << ")\n";
+                << " (" << fmt.fmt.pix.width << "x" << fmt.fmt.pix.height << ")\n";
             break;
         }
     }
 
-    if (!fmt_set) {
+    if (!fmt_set)
+    {
         std::cerr << "[V4L2] Failed to set video format on " << cfg.device << "\n";
         close(cam_fd);
         return -1;
@@ -138,21 +157,24 @@ static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4
     req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
     req.memory = V4L2_MEMORY_MMAP;
 
-    if (ioctl(cam_fd, VIDIOC_REQBUFS, &req) < 0 || req.count < 2) {
+    if (ioctl(cam_fd, VIDIOC_REQBUFS, &req) < 0 || req.count < 2)
+    {
         std::cerr << "[V4L2] Insufficient buffer memory on " << cfg.device << "\n";
         close(cam_fd);
         return -1;
     }
 
     buffers.resize(req.count);
-    for (uint32_t i = 0; i < req.count; ++i) {
+    for (uint32_t i = 0; i < req.count; ++i)
+    {
         struct v4l2_buffer buf;
         memset(&buf, 0, sizeof(buf));
         buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
         buf.memory = V4L2_MEMORY_MMAP;
         buf.index = i;
 
-        if (ioctl(cam_fd, VIDIOC_QUERYBUF, &buf) < 0) {
+        if (ioctl(cam_fd, VIDIOC_QUERYBUF, &buf) < 0)
+        {
             std::cerr << "[V4L2] VIDIOC_QUERYBUF failed for buffer " << i << "\n";
             close(cam_fd);
             return -1;
@@ -160,13 +182,15 @@ static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4
 
         buffers[i].length = buf.length;
         buffers[i].start = mmap(nullptr, buf.length, PROT_READ | PROT_WRITE, MAP_SHARED, cam_fd, buf.m.offset);
-        if (buffers[i].start == MAP_FAILED) {
+        if (buffers[i].start == MAP_FAILED)
+        {
             std::cerr << "[V4L2] mmap failed for buffer " << i << "\n";
             close(cam_fd);
             return -1;
         }
 
-        if (ioctl(cam_fd, VIDIOC_QBUF, &buf) < 0) {
+        if (ioctl(cam_fd, VIDIOC_QBUF, &buf) < 0)
+        {
             std::cerr << "[V4L2] VIDIOC_QBUF failed for buffer " << i << "\n";
             close(cam_fd);
             return -1;
@@ -174,7 +198,8 @@ static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4
     }
 
     enum v4l2_buf_type type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-    if (ioctl(cam_fd, VIDIOC_STREAMON, &type) < 0) {
+    if (ioctl(cam_fd, VIDIOC_STREAMON, &type) < 0)
+    {
         std::cerr << "[V4L2] VIDIOC_STREAMON failed: " << strerror(errno) << "\n";
         close(cam_fd);
         return -1;
@@ -184,13 +209,16 @@ static int init_v4l2_camera(const CameraConfig &cfg, int &cam_fd, std::vector<V4
     return 0;
 }
 
-static void stop_v4l2_camera(int cam_fd, std::vector<V4L2Buffer> &buffers)
+static void stop_v4l2_camera(int cam_fd, std::vector<V4L2Buffer>& buffers)
 {
-    if (cam_fd >= 0) {
+    if (cam_fd >= 0)
+    {
         enum v4l2_buf_type type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
         ioctl(cam_fd, VIDIOC_STREAMOFF, &type);
-        for (auto &b : buffers) {
-            if (b.start && b.start != MAP_FAILED) {
+        for (auto& b : buffers)
+        {
+            if (b.start && b.start != MAP_FAILED)
+            {
                 munmap(b.start, b.length);
             }
         }
@@ -199,30 +227,41 @@ static void stop_v4l2_camera(int cam_fd, std::vector<V4L2Buffer> &buffers)
     }
 }
 
-static std::string parse_endpoint_name(const std::string &endpoint, int &port)
+static std::string parse_endpoint_name(const std::string& endpoint, int& port)
 {
     std::string ep = endpoint;
     const std::string prefix = "rtsp://";
-    if (ep.rfind(prefix, 0) == 0) {
+    if (ep.rfind(prefix, 0) == 0)
+    {
         std::string rest = ep.substr(prefix.length());
         size_t slash_pos = rest.find('/');
-        if (slash_pos != std::string::npos) {
+        if (slash_pos != std::string::npos)
+        {
             std::string host_port = rest.substr(0, slash_pos);
             ep = rest.substr(slash_pos + 1);
             size_t colon_pos = host_port.find(':');
-            if (colon_pos != std::string::npos) {
-                try {
+            if (colon_pos != std::string::npos)
+            {
+                try
+                {
                     port = std::stoi(host_port.substr(colon_pos + 1));
-                } catch (...) {}
+                }
+                catch (...)
+                {
+                }
             }
-        } else {
+        }
+        else
+        {
             ep = "live";
         }
     }
-    while (!ep.empty() && ep.front() == '/') {
+    while (!ep.empty() && ep.front() == '/')
+    {
         ep.erase(0, 1);
     }
-    if (ep.empty()) {
+    if (ep.empty())
+    {
         ep = "live";
     }
     return ep;
@@ -236,14 +275,14 @@ int main(int argc, char** argv)
 
     blt::argparse::argument_parser_t parser{};
     parser.add_flag("--camera", "-c").set_default(std::string("/dev/video0")).as_type<std::string>().set_dest("camera");
-    parser.add_flag("--model", "-m").set_default(std::string("/root/yolov8n_cv181x_int8_sym.cvimodel")).as_type<std::string>().set_dest("model");
+    parser.add_flag("--model", "-m").set_default(std::string("/root/mobilenet_v2_int8_asym.cvimodel")).as_type<
+        std::string>().set_dest("model");
     parser.add_flag("--endpoint", "-e").set_default(std::string("live")).as_type<std::string>().set_dest("endpoint");
     parser.add_flag("--port", "-p").set_default(8554).as_type<int>().set_dest("port");
     parser.add_flag("--width", "-w").set_default(1280).as_type<int>().set_dest("width");
     parser.add_flag("--height", "-h").set_default(720).as_type<int>().set_dest("height");
     parser.add_flag("--fps", "-f").set_default(30).as_type<int>().set_dest("fps");
-    parser.add_flag("--threshold", "-t").set_default(0.5f).as_type<float>().set_dest("threshold");
-    parser.add_flag("--nms").set_default(0.5f).as_type<float>().set_dest("nms");
+    parser.add_flag("--threshold", "-t").set_default(0.1f).as_type<float>().set_dest("threshold");
     parser.add_flag("--bitrate", "-b").set_default(2000).as_type<int>().set_dest("bitrate");
 
     auto args = parser.parse(argc, const_cast<const char**>(argv));
@@ -256,20 +295,19 @@ int main(int argc, char** argv)
     int height = args.get<int>("height");
     int fps = args.get<int>("fps");
     float conf_threshold = args.get<float>("threshold");
-    float nms_threshold = args.get<float>("nms");
     int bitrate_kbps = args.get<int>("bitrate");
 
     std::string session_name = parse_endpoint_name(endpoint_arg, rtsp_port);
 
     std::cout << "========================================\n"
-              << " Milk-V Duo S Hardware Accelerated Streamer\n"
-              << " Camera:    " << camera_dev << "\n"
-              << " Model:     " << model_path << "\n"
-              << " Endpoint:  rtsp://<ip>:" << rtsp_port << "/" << session_name << "\n"
-              << " Resolution:" << width << "x" << height << " @" << fps << "fps\n"
-              << " Threshold: " << conf_threshold << " (NMS: " << nms_threshold << ")\n"
-              << " Bitrate:   " << bitrate_kbps << " kbps\n"
-              << "========================================\n";
+        << " Milk-V Duo S Hardware Accelerated Streamer (MobileNetV2)\n"
+        << " Camera:    " << camera_dev << "\n"
+        << " Model:     " << model_path << "\n"
+        << " Endpoint:  rtsp://<ip>:" << rtsp_port << "/" << session_name << "\n"
+        << " Resolution:" << width << "x" << height << " @" << fps << "fps\n"
+        << " Threshold: " << conf_threshold << "\n"
+        << " Bitrate:   " << bitrate_kbps << " kbps\n"
+        << "========================================\n";
 
     // 1. Initialize V4L2 Camera
     int cam_fd = -1;
@@ -277,7 +315,8 @@ int main(int argc, char** argv)
     uint32_t cam_fmt = V4L2_PIX_FMT_MJPEG;
     CameraConfig cam_cfg{camera_dev, (uint32_t)width, (uint32_t)height, (uint32_t)fps, V4L2_PIX_FMT_MJPEG};
 
-    if (init_v4l2_camera(cam_cfg, cam_fd, v4l2_buffers, cam_fmt) != 0) {
+    if (init_v4l2_camera(cam_cfg, cam_fd, v4l2_buffers, cam_fmt) != 0)
+    {
         std::cerr << "[ERROR] Could not initialize camera.\n";
         return 1;
     }
@@ -289,27 +328,32 @@ int main(int argc, char** argv)
     VB_CONFIG_S stVbConf;
     memset(&stVbConf, 0, sizeof(VB_CONFIG_S));
     stVbConf.u32MaxPoolCnt = 2;
-    stVbConf.astCommPool[0].u32BlkSize = COMMON_GetPicBufferSize(width, height, PIXEL_FORMAT_YUV_PLANAR_420, DATA_BITWIDTH_8, COMPRESS_MODE_NONE, DEFAULT_ALIGN);
+    stVbConf.astCommPool[0].u32BlkSize = COMMON_GetPicBufferSize(width, height, PIXEL_FORMAT_YUV_PLANAR_420,
+                                                                 DATA_BITWIDTH_8, COMPRESS_MODE_NONE, DEFAULT_ALIGN);
     stVbConf.astCommPool[0].u32BlkCnt = 8;
-    stVbConf.astCommPool[1].u32BlkSize = COMMON_GetPicBufferSize(width, height, PIXEL_FORMAT_NV21, DATA_BITWIDTH_8, COMPRESS_MODE_NONE, DEFAULT_ALIGN);
+    stVbConf.astCommPool[1].u32BlkSize = COMMON_GetPicBufferSize(width, height, PIXEL_FORMAT_NV21, DATA_BITWIDTH_8,
+                                                                 COMPRESS_MODE_NONE, DEFAULT_ALIGN);
     stVbConf.astCommPool[1].u32BlkCnt = 4;
 
     CVI_S32 s32Ret = CVI_VB_SetConfig(&stVbConf);
-    if (s32Ret != CVI_SUCCESS) {
+    if (s32Ret != CVI_SUCCESS)
+    {
         std::cerr << "[CVI] CVI_VB_SetConfig failed: 0x" << std::hex << s32Ret << "\n";
         stop_v4l2_camera(cam_fd, v4l2_buffers);
         return 1;
     }
 
     s32Ret = CVI_VB_Init();
-    if (s32Ret != CVI_SUCCESS) {
+    if (s32Ret != CVI_SUCCESS)
+    {
         std::cerr << "[CVI] CVI_VB_Init failed: 0x" << std::hex << s32Ret << "\n";
         stop_v4l2_camera(cam_fd, v4l2_buffers);
         return 1;
     }
 
     s32Ret = CVI_SYS_Init();
-    if (s32Ret != CVI_SUCCESS) {
+    if (s32Ret != CVI_SUCCESS)
+    {
         std::cerr << "[CVI] CVI_SYS_Init failed: 0x" << std::hex << s32Ret << "\n";
         CVI_VB_Exit();
         stop_v4l2_camera(cam_fd, v4l2_buffers);
@@ -327,18 +371,22 @@ int main(int argc, char** argv)
     stVdecAttr.u32StreamBufSize = ALIGN(width * height, 0x4000);
     stVdecAttr.u32FrameBufCnt = 4;
 
-    if (stVdecAttr.enType == PT_JPEG) {
-        stVdecAttr.u32FrameBufSize = VDEC_GetPicBufferSize(PT_JPEG, width, height, PIXEL_FORMAT_YUV_PLANAR_420, DATA_BITWIDTH_8, COMPRESS_MODE_NONE);
+    if (stVdecAttr.enType == PT_JPEG)
+    {
+        stVdecAttr.u32FrameBufSize = VDEC_GetPicBufferSize(PT_JPEG, width, height, PIXEL_FORMAT_YUV_PLANAR_420,
+                                                           DATA_BITWIDTH_8, COMPRESS_MODE_NONE);
     }
 
     s32Ret = CVI_VDEC_CreateChn(vdec_chn, &stVdecAttr);
-    if (s32Ret != CVI_SUCCESS) {
+    if (s32Ret != CVI_SUCCESS)
+    {
         std::cerr << "[CVI VDEC] CreateChn failed: 0x" << std::hex << s32Ret << "\n";
     }
 
     VDEC_CHN_PARAM_S stVdecChnParam;
     memset(&stVdecChnParam, 0, sizeof(stVdecChnParam));
     CVI_VDEC_GetChnParam(vdec_chn, &stVdecChnParam);
+    stVdecChnParam.enType = stVdecAttr.enType;
     stVdecChnParam.enPixelFormat = PIXEL_FORMAT_YUV_PLANAR_420;
     stVdecChnParam.u32DisplayFrameNum = 2;
     CVI_VDEC_SetChnParam(vdec_chn, &stVdecChnParam);
@@ -354,11 +402,11 @@ int main(int argc, char** argv)
     stVencChnAttr.stVencAttr.u32PicWidth = width;
     stVencChnAttr.stVencAttr.u32PicHeight = height;
     stVencChnAttr.stVencAttr.u32BufSize = width * height;
-    stVencChnAttr.stVencAttr.u32Profile = 0; // Baseline/Main
+    stVencChnAttr.stVencAttr.u32Profile = 0; // Baseline
     stVencChnAttr.stVencAttr.bByFrame = CVI_TRUE;
 
     stVencChnAttr.stRcAttr.enRcMode = VENC_RC_MODE_H264CBR;
-    stVencChnAttr.stRcAttr.stH264Cbr.u32Gop = fps * 2;
+    stVencChnAttr.stRcAttr.stH264Cbr.u32Gop = (fps > 0 && fps <= 30) ? fps : 30; // Fast GOP for quick recovery
     stVencChnAttr.stRcAttr.stH264Cbr.u32StatTime = 1;
     stVencChnAttr.stRcAttr.stH264Cbr.u32SrcFrameRate = fps;
     stVencChnAttr.stRcAttr.stH264Cbr.fr32DstFrameRate = fps;
@@ -368,8 +416,33 @@ int main(int argc, char** argv)
     stVencChnAttr.stGopAttr.stNormalP.s32IPQpDelta = 2;
 
     s32Ret = CVI_VENC_CreateChn(venc_chn, &stVencChnAttr);
-    if (s32Ret != CVI_SUCCESS) {
+    if (s32Ret != CVI_SUCCESS)
+    {
         std::cerr << "[CVI VENC] CreateChn failed: 0x" << std::hex << s32Ret << "\n";
+    }
+
+    VENC_H264_ENTROPY_S h264Entropy = {0};
+    h264Entropy.u32EntropyEncModeI = H264E_ENTROPY_CAVLC;
+    h264Entropy.u32EntropyEncModeP = H264E_ENTROPY_CAVLC;
+    CVI_VENC_SetH264Entropy(venc_chn, &h264Entropy);
+
+    VENC_H264_TRANS_S h264Trans = {0};
+    if (CVI_VENC_GetH264Trans(venc_chn, &h264Trans) == CVI_SUCCESS)
+    {
+        h264Trans.chroma_qp_index_offset = 0;
+        CVI_VENC_SetH264Trans(venc_chn, &h264Trans);
+    }
+
+    VENC_H264_VUI_S h264Vui = {0};
+    if (CVI_VENC_GetH264Vui(venc_chn, &h264Vui) == CVI_SUCCESS)
+    {
+        h264Vui.stVuiAspectRatio.aspect_ratio_info_present_flag = 1;
+        h264Vui.stVuiAspectRatio.aspect_ratio_idc = 1;
+        h264Vui.stVuiTimeInfo.timing_info_present_flag = 1;
+        h264Vui.stVuiTimeInfo.fixed_frame_rate_flag = 0;
+        h264Vui.stVuiTimeInfo.num_units_in_tick = 1;
+        h264Vui.stVuiTimeInfo.time_scale = (fps > 0 ? fps : 30) * 2;
+        CVI_VENC_SetH264Vui(venc_chn, &h264Vui);
     }
 
     VENC_RECV_PIC_PARAM_S stRecvParam;
@@ -382,15 +455,19 @@ int main(int argc, char** argv)
     memset(&rtsp_cfg, 0, sizeof(rtsp_cfg));
     rtsp_cfg.port = rtsp_port;
 
-    CVI_RTSP_CTX *rtsp_ctx = nullptr;
-    if (CVI_RTSP_Create(&rtsp_ctx, &rtsp_cfg) < 0) {
+    CVI_RTSP_CTX* rtsp_ctx = nullptr;
+    if (CVI_RTSP_Create(&rtsp_ctx, &rtsp_cfg) < 0)
+    {
         std::cerr << "[CVI RTSP] Failed to create RTSP context on port " << rtsp_port << "\n";
     }
 
-    CVI_RTSP_SESSION *rtsp_session = nullptr;
+    CVI_RTSP_SESSION* rtsp_session = nullptr;
     CVI_RTSP_SESSION_ATTR session_attr;
     memset(&session_attr, 0, sizeof(session_attr));
     session_attr.video.codec = RTSP_VIDEO_H264;
+    session_attr.video.bitrate = bitrate_kbps;
+    session_attr.video.play = rtsp_on_play;
+    session_attr.video.playArg = nullptr;
     snprintf(session_attr.name, sizeof(session_attr.name), "%s", session_name.c_str());
 
     CVI_RTSP_CreateSession(rtsp_ctx, &session_attr, &rtsp_session);
@@ -402,29 +479,37 @@ int main(int argc, char** argv)
     rtsp_listener.argConn = rtsp_ctx;
     CVI_RTSP_SetListener(rtsp_ctx, &rtsp_listener);
 
-    if (CVI_RTSP_Start(rtsp_ctx) < 0) {
+    if (CVI_RTSP_Start(rtsp_ctx) < 0)
+    {
         std::cerr << "[CVI RTSP] Failed to start RTSP server.\n";
-    } else {
+    }
+    else
+    {
         std::cout << "[CVI RTSP] RTSP Server listening on rtsp://0.0.0.0:" << rtsp_port << "/" << session_name << "\n";
     }
 
-    // 6. Initialize CVI TDL (YOLOv8 Model & Drawing Service)
+    // 6. Initialize CVI TDL (MobileNetV2 Classification Model & Drawing Service)
     cvitdl_handle_t tdl_handle = nullptr;
     s32Ret = CVI_TDL_CreateHandle(&tdl_handle);
-    if (s32Ret != CVI_SUCCESS) {
+    if (s32Ret != CVI_SUCCESS)
+    {
         std::cerr << "[CVI TDL] CreateHandle failed: 0x" << std::hex << s32Ret << "\n";
     }
-
-    s32Ret = CVI_TDL_OpenModel(tdl_handle, CVI_TDL_SUPPORTED_MODEL_YOLOV8_DETECTION, model_path.c_str());
-    if (s32Ret != CVI_SUCCESS) {
-        std::cerr << "[CVI TDL] OpenModel failed for " << model_path << ": 0x" << std::hex << s32Ret << "\n";
-        std::cerr << "[CVI TDL] Please ensure the YOLOv8 cvimodel exists and path is correct.\n";
-    } else {
-        std::cout << "[CVI TDL] Successfully loaded YOLOv8 model: " << model_path << "\n";
+    else
+    {
+        std::cout << "[CVI TDL] Successfully created CVI TDL handle.\n";
     }
 
-    CVI_TDL_SetModelThreshold(tdl_handle, CVI_TDL_SUPPORTED_MODEL_YOLOV8_DETECTION, conf_threshold);
-    CVI_TDL_SetModelNmsThreshold(tdl_handle, CVI_TDL_SUPPORTED_MODEL_YOLOV8_DETECTION, nms_threshold);
+    s32Ret = CVI_TDL_OpenModel(tdl_handle, CVI_TDL_SUPPORTED_MODEL_IMAGE_CLASSIFICATION, model_path.c_str());
+    if (s32Ret != CVI_SUCCESS)
+    {
+        std::cerr << "[CVI TDL] OpenModel failed for " << model_path << ": 0x" << std::hex << s32Ret << "\n";
+        std::cerr << "[CVI TDL] Please ensure the MobileNetV2 cvimodel exists and path is correct.\n";
+    }
+    else
+    {
+        std::cout << "[CVI TDL] Successfully loaded MobileNetV2 model: " << model_path << "\n";
+    }
 
     cvitdl_service_handle_t service_handle = nullptr;
     CVI_TDL_Service_CreateHandle(&service_handle, tdl_handle);
@@ -434,14 +519,19 @@ int main(int argc, char** argv)
     uint64_t frame_count = 0;
     auto start_time = std::chrono::steady_clock::now();
 
-    while (g_running) {
+    std::vector<uint8_t> s_sps;
+    std::vector<uint8_t> s_pps;
+
+    while (g_running)
+    {
         fd_set fds;
         FD_ZERO(&fds);
         FD_SET(cam_fd, &fds);
-        struct timeval tv = { .tv_sec = 2, .tv_usec = 0 };
+        struct timeval tv = {.tv_sec = 2, .tv_usec = 0};
 
         int r = select(cam_fd + 1, &fds, nullptr, nullptr, &tv);
-        if (r <= 0) {
+        if (r <= 0)
+        {
             if (r < 0 && errno == EINTR) continue;
             std::cerr << "[V4L2] Camera frame timeout\n";
             continue;
@@ -452,7 +542,8 @@ int main(int argc, char** argv)
         v4l2_buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
         v4l2_buf.memory = V4L2_MEMORY_MMAP;
 
-        if (ioctl(cam_fd, VIDIOC_DQBUF, &v4l2_buf) < 0) {
+        if (ioctl(cam_fd, VIDIOC_DQBUF, &v4l2_buf) < 0)
+        {
             if (errno == EAGAIN) continue;
             std::cerr << "[V4L2] VIDIOC_DQBUF error: " << strerror(errno) << "\n";
             break;
@@ -475,48 +566,117 @@ int main(int argc, char** argv)
         VIDEO_FRAME_INFO_S stFrame;
         memset(&stFrame, 0, sizeof(VIDEO_FRAME_INFO_S));
         s32Ret = CVI_VDEC_GetFrame(vdec_chn, &stFrame, 2000);
-        if (s32Ret == CVI_SUCCESS) {
-            // 1. Run YOLOv8 Object Detection on TPU
-            cvtdl_object_t obj_meta = {0};
-            if (tdl_handle) {
-                s32Ret = CVI_TDL_YOLOV8_Detection(tdl_handle, &stFrame, &obj_meta);
-                if (s32Ret == CVI_SUCCESS && obj_meta.size > 0 && service_handle) {
-                    for (uint32_t i = 0; i < obj_meta.size; i++) {
-                        char label[256];
-                        snprintf(label, sizeof(label), "%s: %.2f", obj_meta.info[i].name, obj_meta.info[i].bbox.score);
-                        strncpy(obj_meta.info[i].name, label, sizeof(obj_meta.info[i].name) - 1);
+        if (s32Ret == CVI_SUCCESS)
+        {
+            // 1. Run MobileNetV2 Image Classification on TPU
+            cvtdl_class_meta_t cls_meta = {0};
+            if (tdl_handle)
+            {
+                s32Ret = CVI_TDL_Image_Classification(tdl_handle, &stFrame, &cls_meta);
+                if (s32Ret == CVI_SUCCESS)
+                {
+                    char label[128];
+                    int y_offset = 40;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        snprintf(label, sizeof(label), "Top %d: Class %d (%.2f%%)", i + 1, cls_meta.cls[i],
+                                 cls_meta.score[i] * 100.0f);
+                        if (cls_meta.score[i] >= conf_threshold || i == 0)
+                        {
+                            CVI_TDL_Service_ObjectWriteText(label, 30, y_offset, &stFrame, 0.0f, 255.0f, 0.0f);
+                            y_offset += 35;
+                        }
                     }
-                    cvtdl_service_brush_t brush = CVI_TDL_Service_GetDefaultBrush();
-                    brush.size = 2;
-                    CVI_TDL_Service_ObjectDrawRect(service_handle, &obj_meta, &stFrame, true, brush);
+                }
+                else
+                {
+                    static uint32_t cls_err_count = 0;
+                    if (++cls_err_count % 30 == 1)
+                    {
+                        std::cerr << "[CVI TDL] Image classification failed: 0x" << std::hex << s32Ret << "\n";
+                    }
                 }
             }
 
-            // 2. Hardware H.264 encode via VENC
+            // 2. If client connected or IDR requested, force immediate IDR frame
+            if (g_need_idr.exchange(false))
+            {
+                CVI_VENC_RequestIDR(venc_chn, CVI_TRUE);
+            }
+
+            // 3. Hardware H.264 encode via VENC
             s32Ret = CVI_VENC_SendFrame(venc_chn, &stFrame, 20000);
-            if (s32Ret != CVI_SUCCESS) {
+            if (s32Ret != CVI_SUCCESS)
+            {
                 std::cerr << "[CVI VENC] SendFrame failed: 0x" << std::hex << s32Ret << "\n";
             }
 
             // Release decoded frame back to VDEC pool
             CVI_VDEC_ReleaseFrame(vdec_chn, &stFrame);
-            CVI_TDL_Free(&obj_meta);
+            CVI_TDL_FreeClassMeta(&cls_meta);
 
-            // 3. Query VENC and stream encoded NAL units to RTSP
+            // 4. Query VENC and stream encoded NAL units to RTSP
             VENC_CHN_STATUS_S stStat;
-            if (CVI_VENC_QueryStatus(venc_chn, &stStat) == CVI_SUCCESS && stStat.u32CurPacks > 0) {
+            if (CVI_VENC_QueryStatus(venc_chn, &stStat) == CVI_SUCCESS && stStat.u32CurPacks > 0)
+            {
                 VENC_STREAM_S stStream;
                 memset(&stStream, 0, sizeof(VENC_STREAM_S));
                 stStream.pstPack = (VENC_PACK_S*)malloc(sizeof(VENC_PACK_S) * stStat.u32CurPacks);
-                if (stStream.pstPack) {
-                    if (CVI_VENC_GetStream(venc_chn, &stStream, 10000) == CVI_SUCCESS) {
-                        if (rtsp_ctx && rtsp_session && rtsp_session->video) {
-                            CVI_RTSP_DATA rtsp_data = {0};
-                            rtsp_data.blockCnt = stStream.u32PackCount;
-                            for (unsigned int i = 0; i < stStream.u32PackCount; i++) {
-                                rtsp_data.dataPtr[i] = stStream.pstPack[i].pu8Addr + stStream.pstPack[i].u32Offset;
-                                rtsp_data.dataLen[i] = stStream.pstPack[i].u32Len - stStream.pstPack[i].u32Offset;
+                if (stStream.pstPack)
+                {
+                    if (CVI_VENC_GetStream(venc_chn, &stStream, 10000) == CVI_SUCCESS)
+                    {
+                        if (rtsp_ctx && rtsp_session && rtsp_session->video)
+                        {
+                            bool has_sps = false;
+                            bool has_pps = false;
+                            bool has_idr = false;
+
+                            for (uint32_t i = 0; i < stStream.u32PackCount; i++)
+                            {
+                                VENC_PACK_S* p = &stStream.pstPack[i];
+                                uint32_t len = p->u32Len - p->u32Offset;
+                                uint8_t* ptr = p->pu8Addr + p->u32Offset;
+                                if (p->DataType.enH264EType == H264E_NALU_SPS)
+                                {
+                                    has_sps = true;
+                                    s_sps.assign(ptr, ptr + len);
+                                }
+                                else if (p->DataType.enH264EType == H264E_NALU_PPS)
+                                {
+                                    has_pps = true;
+                                    s_pps.assign(ptr, ptr + len);
+                                }
+                                else if (p->DataType.enH264EType == H264E_NALU_IDRSLICE)
+                                {
+                                    has_idr = true;
+                                }
                             }
+
+                            CVI_RTSP_DATA rtsp_data = {0};
+                            uint32_t bIdx = 0;
+
+                            // Ensure SPS and PPS are present with IDR frames
+                            if (has_idr && !has_sps && !s_sps.empty() && bIdx < CVI_RTSP_DATA_MAX_BLOCK)
+                            {
+                                rtsp_data.dataPtr[bIdx] = s_sps.data();
+                                rtsp_data.dataLen[bIdx] = (uint32_t)s_sps.size();
+                                bIdx++;
+                            }
+                            if (has_idr && !has_pps && !s_pps.empty() && bIdx < CVI_RTSP_DATA_MAX_BLOCK)
+                            {
+                                rtsp_data.dataPtr[bIdx] = s_pps.data();
+                                rtsp_data.dataLen[bIdx] = (uint32_t)s_pps.size();
+                                bIdx++;
+                            }
+
+                            for (uint32_t i = 0; i < stStream.u32PackCount && bIdx < CVI_RTSP_DATA_MAX_BLOCK; i++)
+                            {
+                                rtsp_data.dataPtr[bIdx] = stStream.pstPack[i].pu8Addr + stStream.pstPack[i].u32Offset;
+                                rtsp_data.dataLen[bIdx] = stStream.pstPack[i].u32Len - stStream.pstPack[i].u32Offset;
+                                bIdx++;
+                            }
+                            rtsp_data.blockCnt = bIdx;
                             CVI_RTSP_WriteFrame(rtsp_ctx, rtsp_session->video, &rtsp_data);
                         }
                         CVI_VENC_ReleaseStream(venc_chn, &stStream);
@@ -526,11 +686,21 @@ int main(int argc, char** argv)
             }
 
             frame_count++;
-            if (frame_count % 150 == 0) {
+            if (frame_count % 150 == 0)
+            {
                 auto now = std::chrono::steady_clock::now();
-                double elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(now - start_time).count() / 1000.0;
+                double elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(now - start_time).count() /
+                    1000.0;
                 std::cout << "[FPS] Processed " << frame_count << " frames in " << elapsed << "s ("
-                          << (frame_count / elapsed) << " fps)\n";
+                    << (frame_count / elapsed) << " fps)\n";
+            }
+        }
+        else
+        {
+            static uint32_t vdec_err_count = 0;
+            if (++vdec_err_count % 30 == 1)
+            {
+                std::cerr << "[CVI VDEC] GetFrame waiting/error: 0x" << std::hex << s32Ret << "\n";
             }
         }
     }
@@ -538,9 +708,11 @@ int main(int argc, char** argv)
     std::cout << "[MAIN] Shutting down pipeline...\n";
 
     // Clean up RTSP
-    if (rtsp_ctx) {
+    if (rtsp_ctx)
+    {
         CVI_RTSP_Stop(rtsp_ctx);
-        if (rtsp_session) {
+        if (rtsp_session)
+        {
             CVI_RTSP_DestroySession(rtsp_ctx, rtsp_session);
         }
         CVI_RTSP_Destroy(&rtsp_ctx);
@@ -557,10 +729,12 @@ int main(int argc, char** argv)
     CVI_VDEC_DestroyChn(vdec_chn);
 
     // Clean up TDL
-    if (service_handle) {
+    if (service_handle)
+    {
         CVI_TDL_Service_DestroyHandle(service_handle);
     }
-    if (tdl_handle) {
+    if (tdl_handle)
+    {
         CVI_TDL_DestroyHandle(tdl_handle);
     }
 
