@@ -28,6 +28,8 @@
 #include "cvi_comm_sys.h"
 #include "cvi_comm_vb.h"
 
+#include "core/utils/vpss_helper.h"
+
 #include "cvi_tdl.h"
 #include "cvi_tdl_media.h"
 #include "service/cvi_tdl_service.h"
@@ -321,41 +323,12 @@ int main(int argc, char** argv)
         return 1;
     }
 
-    // 2. Initialize Hardware VB Memory Pool & System
-    CVI_SYS_Exit();
-    CVI_VB_Exit();
-
-    VB_CONFIG_S stVbConf;
-    memset(&stVbConf, 0, sizeof(VB_CONFIG_S));
-    stVbConf.u32MaxPoolCnt = 2;
-    stVbConf.astCommPool[0].u32BlkSize = COMMON_GetPicBufferSize(width, height, PIXEL_FORMAT_YUV_PLANAR_420,
-                                                                 DATA_BITWIDTH_8, COMPRESS_MODE_NONE, DEFAULT_ALIGN);
-    stVbConf.astCommPool[0].u32BlkCnt = 8;
-    stVbConf.astCommPool[1].u32BlkSize = COMMON_GetPicBufferSize(width, height, PIXEL_FORMAT_NV21, DATA_BITWIDTH_8,
-                                                                 COMPRESS_MODE_NONE, DEFAULT_ALIGN);
-    stVbConf.astCommPool[1].u32BlkCnt = 4;
-
-    CVI_S32 s32Ret = CVI_VB_SetConfig(&stVbConf);
+    // 2. Initialize Middleware (VB + SYS) — required before TDL CreateHandle/OpenModel
+    s32Ret = MMF_INIT_HELPER2(width, height, PIXEL_FORMAT_YUV_PLANAR_420, 8,
+                              width, height, PIXEL_FORMAT_YUV_PLANAR_420, 4);
     if (s32Ret != CVI_SUCCESS)
     {
-        std::cerr << "[CVI] CVI_VB_SetConfig failed: 0x" << std::hex << s32Ret << "\n";
-        stop_v4l2_camera(cam_fd, v4l2_buffers);
-        return 1;
-    }
-
-    s32Ret = CVI_VB_Init();
-    if (s32Ret != CVI_SUCCESS)
-    {
-        std::cerr << "[CVI] CVI_VB_Init failed: 0x" << std::hex << s32Ret << "\n";
-        stop_v4l2_camera(cam_fd, v4l2_buffers);
-        return 1;
-    }
-
-    s32Ret = CVI_SYS_Init();
-    if (s32Ret != CVI_SUCCESS)
-    {
-        std::cerr << "[CVI] CVI_SYS_Init failed: 0x" << std::hex << s32Ret << "\n";
-        CVI_VB_Exit();
+        std::cerr << "[CVI] MMF_INIT_HELPER2 failed: 0x" << std::hex << s32Ret << "\n";
         stop_v4l2_camera(cam_fd, v4l2_buffers);
         return 1;
     }
