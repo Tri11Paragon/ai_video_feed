@@ -35,6 +35,7 @@
 #include "service/cvi_tdl_service.h"
 #include "cvi_rtsp/rtsp.h"
 #include <blt/parse/argparse_v2.h>
+#include "classes.h"
 
 static std::atomic<bool> g_running{true};
 static std::atomic<bool> g_need_idr{true};
@@ -324,7 +325,7 @@ int main(int argc, char** argv)
     }
 
     // 2. Initialize Middleware (VB + SYS) — required before TDL CreateHandle/OpenModel
-    s32Ret = MMF_INIT_HELPER2(width, height, PIXEL_FORMAT_YUV_PLANAR_420, 8,
+    auto s32Ret = MMF_INIT_HELPER2(width, height, PIXEL_FORMAT_YUV_PLANAR_420, 8,
                               width, height, PIXEL_FORMAT_YUV_PLANAR_420, 4);
     if (s32Ret != CVI_SUCCESS)
     {
@@ -552,10 +553,10 @@ int main(int argc, char** argv)
                     int y_offset = 40;
                     for (int i = 0; i < 5; i++)
                     {
-                        snprintf(label, sizeof(label), "Top %d: Class %d (%.2f%%)", i + 1, cls_meta.cls[i],
-                                 cls_meta.score[i] * 100.0f);
                         if (cls_meta.score[i] >= conf_threshold || i == 0)
                         {
+                            snprintf(label, sizeof(label), "Top %d: Class %s (%.2f%%)", i + 1, imagenet_classes[cls_meta.cls[i]],
+                                 cls_meta.score[i] * 100.0f);
                             CVI_TDL_Service_ObjectWriteText(label, 30, y_offset, &stFrame, 0.0f, 255.0f, 0.0f);
                             y_offset += 35;
                         }
