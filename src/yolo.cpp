@@ -539,11 +539,12 @@ int main(int argc, char** argv)
         // Retrieve hardware decoded video frame
         VIDEO_FRAME_INFO_S stFrame;
         memset(&stFrame, 0, sizeof(VIDEO_FRAME_INFO_S));
-        s32Ret = CVI_VDEC_GetFrame(vdec_chn, &stFrame, 2000);
+        s32Ret = CVI_VDEC_GetFrame(vdec_chn, &stFrame, -1);
         if (s32Ret == CVI_SUCCESS)
         {
             // 1. Run MobileNetV2 Image Classification on TPU
             cvtdl_class_meta_t cls_meta = {0};
+            std::memset(&cls_meta, 0, sizeof(cvtdl_class_meta_t));
             if (tdl_handle)
             {
                 s32Ret = CVI_TDL_Image_Classification(tdl_handle, &stFrame, &cls_meta);
@@ -557,6 +558,7 @@ int main(int argc, char** argv)
                         {
                             snprintf(label, sizeof(label), "Top %d: Class %s (%.2f%%)", i + 1, imagenet_classes[cls_meta.cls[i]],
                                  cls_meta.score[i] * 100.0f);
+                            std::cout << label << std::endl;
                             CVI_TDL_Service_ObjectWriteText(label, 30, y_offset, &stFrame, 0.0f, 255.0f, 0.0f);
                             y_offset += 35;
                         }
@@ -576,10 +578,11 @@ int main(int argc, char** argv)
             if (g_need_idr.exchange(false))
             {
                 CVI_VENC_RequestIDR(venc_chn, CVI_TRUE);
+                std::cout << "[CVI VENC] IDR frame requested\n";
             }
 
             // 3. Hardware H.264 encode via VENC
-            s32Ret = CVI_VENC_SendFrame(venc_chn, &stFrame, 20000);
+            s32Ret = CVI_VENC_SendFrame(venc_chn, &stFrame, -1);
             if (s32Ret != CVI_SUCCESS)
             {
                 std::cerr << "[CVI VENC] SendFrame failed: 0x" << std::hex << s32Ret << "\n";
@@ -669,6 +672,8 @@ int main(int argc, char** argv)
                     << (frame_count / elapsed) << " fps)\n";
             }
         }
+        else if (s32Ret == CVI_ERR_VDEC_ERR_INVALID_RET)
+        {}
         else
         {
             static uint32_t vdec_err_count = 0;
