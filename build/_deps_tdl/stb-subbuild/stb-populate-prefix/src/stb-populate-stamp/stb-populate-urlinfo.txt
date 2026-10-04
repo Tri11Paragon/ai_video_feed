@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/run/current-system/sw/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/verify-stb-populate.cmake;COMMAND;/run/current-system/sw/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/extract-stb-populate.cmake
+source_dir=/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/stb-src
+work_dir=/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl
+url(s)=/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/oss/oss_release_tarball/musl_riscv64/stb.tar.gz
+hash=
+      no_extract=
+

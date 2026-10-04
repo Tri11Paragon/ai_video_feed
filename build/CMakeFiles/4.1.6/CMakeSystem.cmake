@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.18.54")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/brett/Documents/code/milkv/video_feed/cmake/crosscompile.cmake")
+include("/home/brett/Documents/code/milkv/video_feed/cmake/riscv64-unknown-linux-musl.cmake")
 
 set(CMAKE_SYSTEM "Linux")
 set(CMAKE_SYSTEM_NAME "Linux")

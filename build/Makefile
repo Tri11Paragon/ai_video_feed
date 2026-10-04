@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/run/current-system/sw/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/run/current-system/sw/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/run/current-system/sw/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/run/current-system/sw/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/run/current-system/sw/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/run/current-system/sw/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles /home/brett/Documents/code/milkv/video_feed/build//CMakeFiles/progress.marks
@@ -128,6 +173,1254 @@ video_feed: cmake_check_build_system
 video_feed/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_feed.dir/build.make CMakeFiles/video_feed.dir/build
 .PHONY : video_feed/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps_tdl/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps_tdl/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps_tdl/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps_tdl/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named cvi_tdl
+
+# Build rule for target.
+cvi_tdl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_tdl
+.PHONY : cvi_tdl
+
+# fast build rule for target.
+cvi_tdl/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/CMakeFiles/cvi_tdl.dir/build.make tdl_sdk-build/modules/CMakeFiles/cvi_tdl.dir/build
+.PHONY : cvi_tdl/fast
+
+#=============================================================================
+# Target rules for targets named cvi_tdl-static
+
+# Build rule for target.
+cvi_tdl-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_tdl-static
+.PHONY : cvi_tdl-static
+
+# fast build rule for target.
+cvi_tdl-static/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/CMakeFiles/cvi_tdl-static.dir/build.make tdl_sdk-build/modules/CMakeFiles/cvi_tdl-static.dir/build
+.PHONY : cvi_tdl-static/fast
+
+#=============================================================================
+# Target rules for targets named cvi_tdl_app
+
+# Build rule for target.
+cvi_tdl_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_tdl_app
+.PHONY : cvi_tdl_app
+
+# fast build rule for target.
+cvi_tdl_app/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/CMakeFiles/cvi_tdl_app.dir/build.make tdl_sdk-build/modules/app/CMakeFiles/cvi_tdl_app.dir/build
+.PHONY : cvi_tdl_app/fast
+
+#=============================================================================
+# Target rules for targets named cvi_tdl_app-static
+
+# Build rule for target.
+cvi_tdl_app-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_tdl_app-static
+.PHONY : cvi_tdl_app-static
+
+# fast build rule for target.
+cvi_tdl_app-static/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/CMakeFiles/cvi_tdl_app-static.dir/build.make tdl_sdk-build/modules/app/CMakeFiles/cvi_tdl_app-static.dir/build
+.PHONY : cvi_tdl_app-static/fast
+
+#=============================================================================
+# Target rules for targets named face_capture
+
+# Build rule for target.
+face_capture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_capture
+.PHONY : face_capture
+
+# fast build rule for target.
+face_capture/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/face_capture/CMakeFiles/face_capture.dir/build.make tdl_sdk-build/modules/app/face_capture/CMakeFiles/face_capture.dir/build
+.PHONY : face_capture/fast
+
+#=============================================================================
+# Target rules for targets named face_pet_capture
+
+# Build rule for target.
+face_pet_capture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_pet_capture
+.PHONY : face_pet_capture
+
+# fast build rule for target.
+face_pet_capture/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/face_pet_capture/CMakeFiles/face_pet_capture.dir/build.make tdl_sdk-build/modules/app/face_pet_capture/CMakeFiles/face_pet_capture.dir/build
+.PHONY : face_pet_capture/fast
+
+#=============================================================================
+# Target rules for targets named person_capture
+
+# Build rule for target.
+person_capture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 person_capture
+.PHONY : person_capture
+
+# fast build rule for target.
+person_capture/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/person_capture/CMakeFiles/person_capture.dir/build.make tdl_sdk-build/modules/app/person_capture/CMakeFiles/person_capture.dir/build
+.PHONY : person_capture/fast
+
+#=============================================================================
+# Target rules for targets named personvehicle_capture
+
+# Build rule for target.
+personvehicle_capture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 personvehicle_capture
+.PHONY : personvehicle_capture
+
+# fast build rule for target.
+personvehicle_capture/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/personvehicle_capture/CMakeFiles/personvehicle_capture.dir/build.make tdl_sdk-build/modules/app/personvehicle_capture/CMakeFiles/personvehicle_capture.dir/build
+.PHONY : personvehicle_capture/fast
+
+#=============================================================================
+# Target rules for targets named vehicle_adas
+
+# Build rule for target.
+vehicle_adas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vehicle_adas
+.PHONY : vehicle_adas
+
+# fast build rule for target.
+vehicle_adas/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/vehicle_adas/CMakeFiles/vehicle_adas.dir/build.make tdl_sdk-build/modules/app/vehicle_adas/CMakeFiles/vehicle_adas.dir/build
+.PHONY : vehicle_adas/fast
+
+#=============================================================================
+# Target rules for targets named face_cap_utils
+
+# Build rule for target.
+face_cap_utils: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_cap_utils
+.PHONY : face_cap_utils
+
+# fast build rule for target.
+face_cap_utils/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/app/face_cap_utils/CMakeFiles/face_cap_utils.dir/build.make tdl_sdk-build/modules/app/face_cap_utils/CMakeFiles/face_cap_utils.dir/build
+.PHONY : face_cap_utils/fast
+
+#=============================================================================
+# Target rules for targets named cvi_tdl_core
+
+# Build rule for target.
+cvi_tdl_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_tdl_core
+.PHONY : cvi_tdl_core
+
+# fast build rule for target.
+cvi_tdl_core/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/CMakeFiles/cvi_tdl_core.dir/build.make tdl_sdk-build/modules/core/CMakeFiles/cvi_tdl_core.dir/build
+.PHONY : cvi_tdl_core/fast
+
+#=============================================================================
+# Target rules for targets named liveness
+
+# Build rule for target.
+liveness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 liveness
+.PHONY : liveness
+
+# fast build rule for target.
+liveness/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/liveness/CMakeFiles/liveness.dir/build.make tdl_sdk-build/modules/core/liveness/CMakeFiles/liveness.dir/build
+.PHONY : liveness/fast
+
+#=============================================================================
+# Target rules for targets named ocr_detection
+
+# Build rule for target.
+ocr_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ocr_detection
+.PHONY : ocr_detection
+
+# fast build rule for target.
+ocr_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/ocr/ocr_detection/CMakeFiles/ocr_detection.dir/build.make tdl_sdk-build/modules/core/ocr/ocr_detection/CMakeFiles/ocr_detection.dir/build
+.PHONY : ocr_detection/fast
+
+#=============================================================================
+# Target rules for targets named yawn_classification
+
+# Build rule for target.
+yawn_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yawn_classification
+.PHONY : yawn_classification
+
+# fast build rule for target.
+yawn_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/yawn_classification/CMakeFiles/yawn_classification.dir/build.make tdl_sdk-build/modules/core/yawn_classification/CMakeFiles/yawn_classification.dir/build
+.PHONY : yawn_classification/fast
+
+#=============================================================================
+# Target rules for targets named smoke_classification
+
+# Build rule for target.
+smoke_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smoke_classification
+.PHONY : smoke_classification
+
+# fast build rule for target.
+smoke_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/smoke_classification/CMakeFiles/smoke_classification.dir/build.make tdl_sdk-build/modules/core/smoke_classification/CMakeFiles/smoke_classification.dir/build
+.PHONY : smoke_classification/fast
+
+#=============================================================================
+# Target rules for targets named eye_classification
+
+# Build rule for target.
+eye_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eye_classification
+.PHONY : eye_classification
+
+# fast build rule for target.
+eye_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/eye_classification/CMakeFiles/eye_classification.dir/build.make tdl_sdk-build/modules/core/eye_classification/CMakeFiles/eye_classification.dir/build
+.PHONY : eye_classification/fast
+
+#=============================================================================
+# Target rules for targets named license_plate_recognition
+
+# Build rule for target.
+license_plate_recognition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 license_plate_recognition
+.PHONY : license_plate_recognition
+
+# fast build rule for target.
+license_plate_recognition/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/license_plate_recognition/CMakeFiles/license_plate_recognition.dir/build.make tdl_sdk-build/modules/core/license_plate_recognition/CMakeFiles/license_plate_recognition.dir/build
+.PHONY : license_plate_recognition/fast
+
+#=============================================================================
+# Target rules for targets named license_plate_keypoint
+
+# Build rule for target.
+license_plate_keypoint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 license_plate_keypoint
+.PHONY : license_plate_keypoint
+
+# fast build rule for target.
+license_plate_keypoint/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/license_plate_keypoint/CMakeFiles/license_plate_keypoint.dir/build.make tdl_sdk-build/modules/core/license_plate_keypoint/CMakeFiles/license_plate_keypoint.dir/build
+.PHONY : license_plate_keypoint/fast
+
+#=============================================================================
+# Target rules for targets named face_quality
+
+# Build rule for target.
+face_quality: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_quality
+.PHONY : face_quality
+
+# fast build rule for target.
+face_quality/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_quality/CMakeFiles/face_quality.dir/build.make tdl_sdk-build/modules/core/face_quality/CMakeFiles/face_quality.dir/build
+.PHONY : face_quality/fast
+
+#=============================================================================
+# Target rules for targets named fall_detection
+
+# Build rule for target.
+fall_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fall_detection
+.PHONY : fall_detection
+
+# fast build rule for target.
+fall_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/fall_detection/CMakeFiles/fall_detection.dir/build.make tdl_sdk-build/modules/core/fall_detection/CMakeFiles/fall_detection.dir/build
+.PHONY : fall_detection/fast
+
+#=============================================================================
+# Target rules for targets named smooth_keypoints
+
+# Build rule for target.
+smooth_keypoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smooth_keypoints
+.PHONY : smooth_keypoints
+
+# fast build rule for target.
+smooth_keypoints/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/human_keypoints_detection/smooth_keypoints/CMakeFiles/smooth_keypoints.dir/build.make tdl_sdk-build/modules/core/human_keypoints_detection/smooth_keypoints/CMakeFiles/smooth_keypoints.dir/build
+.PHONY : smooth_keypoints/fast
+
+#=============================================================================
+# Target rules for targets named mask_face_recognition
+
+# Build rule for target.
+mask_face_recognition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mask_face_recognition
+.PHONY : mask_face_recognition
+
+# fast build rule for target.
+mask_face_recognition/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/mask_face_recognition/CMakeFiles/mask_face_recognition.dir/build.make tdl_sdk-build/modules/core/mask_face_recognition/CMakeFiles/mask_face_recognition.dir/build
+.PHONY : mask_face_recognition/fast
+
+#=============================================================================
+# Target rules for targets named isp_image_classification
+
+# Build rule for target.
+isp_image_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 isp_image_classification
+.PHONY : isp_image_classification
+
+# fast build rule for target.
+isp_image_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/isp_image_classification/CMakeFiles/isp_image_classification.dir/build.make tdl_sdk-build/modules/core/isp_image_classification/CMakeFiles/isp_image_classification.dir/build
+.PHONY : isp_image_classification/fast
+
+#=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/core/CMakeFiles/core.dir/build.make tdl_sdk-build/modules/core/core/CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
+# Target rules for targets named utils
+
+# Build rule for target.
+utils: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils
+.PHONY : utils
+
+# fast build rule for target.
+utils/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/utils/CMakeFiles/utils.dir/build.make tdl_sdk-build/modules/core/utils/CMakeFiles/utils.dir/build
+.PHONY : utils/fast
+
+#=============================================================================
+# Target rules for targets named face_attribute
+
+# Build rule for target.
+face_attribute: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_attribute
+.PHONY : face_attribute
+
+# fast build rule for target.
+face_attribute/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_attribute/CMakeFiles/face_attribute.dir/build.make tdl_sdk-build/modules/core/face_attribute/CMakeFiles/face_attribute.dir/build
+.PHONY : face_attribute/fast
+
+#=============================================================================
+# Target rules for targets named face_attribute_cls
+
+# Build rule for target.
+face_attribute_cls: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_attribute_cls
+.PHONY : face_attribute_cls
+
+# fast build rule for target.
+face_attribute_cls/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_attribute_cls/CMakeFiles/face_attribute_cls.dir/build.make tdl_sdk-build/modules/core/face_attribute_cls/CMakeFiles/face_attribute_cls.dir/build
+.PHONY : face_attribute_cls/fast
+
+#=============================================================================
+# Target rules for targets named mask_classification
+
+# Build rule for target.
+mask_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mask_classification
+.PHONY : mask_classification
+
+# fast build rule for target.
+mask_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/mask_classification/CMakeFiles/mask_classification.dir/build.make tdl_sdk-build/modules/core/mask_classification/CMakeFiles/mask_classification.dir/build
+.PHONY : mask_classification/fast
+
+#=============================================================================
+# Target rules for targets named hand_classification
+
+# Build rule for target.
+hand_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hand_classification
+.PHONY : hand_classification
+
+# fast build rule for target.
+hand_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/hand_classification/CMakeFiles/hand_classification.dir/build.make tdl_sdk-build/modules/core/hand_classification/CMakeFiles/hand_classification.dir/build
+.PHONY : hand_classification/fast
+
+#=============================================================================
+# Target rules for targets named hand_keypoint
+
+# Build rule for target.
+hand_keypoint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hand_keypoint
+.PHONY : hand_keypoint
+
+# fast build rule for target.
+hand_keypoint/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/hand_keypoint/CMakeFiles/hand_keypoint.dir/build.make tdl_sdk-build/modules/core/hand_keypoint/CMakeFiles/hand_keypoint.dir/build
+.PHONY : hand_keypoint/fast
+
+#=============================================================================
+# Target rules for targets named hand_keypoint_classification
+
+# Build rule for target.
+hand_keypoint_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hand_keypoint_classification
+.PHONY : hand_keypoint_classification
+
+# fast build rule for target.
+hand_keypoint_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/hand_keypoint_classification/CMakeFiles/hand_keypoint_classification.dir/build.make tdl_sdk-build/modules/core/hand_keypoint_classification/CMakeFiles/hand_keypoint_classification.dir/build
+.PHONY : hand_keypoint_classification/fast
+
+#=============================================================================
+# Target rules for targets named osnet
+
+# Build rule for target.
+osnet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 osnet
+.PHONY : osnet
+
+# fast build rule for target.
+osnet/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/osnet/CMakeFiles/osnet.dir/build.make tdl_sdk-build/modules/core/osnet/CMakeFiles/osnet.dir/build
+.PHONY : osnet/fast
+
+#=============================================================================
+# Target rules for targets named retina_face
+
+# Build rule for target.
+retina_face: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 retina_face
+.PHONY : retina_face
+
+# fast build rule for target.
+retina_face/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_detection/retina_face/CMakeFiles/retina_face.dir/build.make tdl_sdk-build/modules/core/face_detection/retina_face/CMakeFiles/retina_face.dir/build
+.PHONY : retina_face/fast
+
+#=============================================================================
+# Target rules for targets named thermal_face_detection
+
+# Build rule for target.
+thermal_face_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thermal_face_detection
+.PHONY : thermal_face_detection
+
+# fast build rule for target.
+thermal_face_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_detection/thermal_face_detection/CMakeFiles/thermal_face_detection.dir/build.make tdl_sdk-build/modules/core/face_detection/thermal_face_detection/CMakeFiles/thermal_face_detection.dir/build
+.PHONY : thermal_face_detection/fast
+
+#=============================================================================
+# Target rules for targets named face_mask_detection
+
+# Build rule for target.
+face_mask_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_mask_detection
+.PHONY : face_mask_detection
+
+# fast build rule for target.
+face_mask_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_detection/face_mask_detection/CMakeFiles/face_mask_detection.dir/build.make tdl_sdk-build/modules/core/face_detection/face_mask_detection/CMakeFiles/face_mask_detection.dir/build
+.PHONY : face_mask_detection/fast
+
+#=============================================================================
+# Target rules for targets named yolov8
+
+# Build rule for target.
+yolov8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov8
+.PHONY : yolov8
+
+# fast build rule for target.
+yolov8/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolov8/CMakeFiles/yolov8.dir/build.make tdl_sdk-build/modules/core/object_detection/yolov8/CMakeFiles/yolov8.dir/build
+.PHONY : yolov8/fast
+
+#=============================================================================
+# Target rules for targets named yolov10
+
+# Build rule for target.
+yolov10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov10
+.PHONY : yolov10
+
+# fast build rule for target.
+yolov10/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolov10/CMakeFiles/yolov10.dir/build.make tdl_sdk-build/modules/core/object_detection/yolov10/CMakeFiles/yolov10.dir/build
+.PHONY : yolov10/fast
+
+#=============================================================================
+# Target rules for targets named yolov3
+
+# Build rule for target.
+yolov3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov3
+.PHONY : yolov3
+
+# fast build rule for target.
+yolov3/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolov3/CMakeFiles/yolov3.dir/build.make tdl_sdk-build/modules/core/object_detection/yolov3/CMakeFiles/yolov3.dir/build
+.PHONY : yolov3/fast
+
+#=============================================================================
+# Target rules for targets named yolov5
+
+# Build rule for target.
+yolov5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov5
+.PHONY : yolov5
+
+# fast build rule for target.
+yolov5/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolov5/CMakeFiles/yolov5.dir/build.make tdl_sdk-build/modules/core/object_detection/yolov5/CMakeFiles/yolov5.dir/build
+.PHONY : yolov5/fast
+
+#=============================================================================
+# Target rules for targets named yolov6
+
+# Build rule for target.
+yolov6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov6
+.PHONY : yolov6
+
+# fast build rule for target.
+yolov6/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolov6/CMakeFiles/yolov6.dir/build.make tdl_sdk-build/modules/core/object_detection/yolov6/CMakeFiles/yolov6.dir/build
+.PHONY : yolov6/fast
+
+#=============================================================================
+# Target rules for targets named yolo
+
+# Build rule for target.
+yolo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolo
+.PHONY : yolo
+
+# fast build rule for target.
+yolo/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolo/CMakeFiles/yolo.dir/build.make tdl_sdk-build/modules/core/object_detection/yolo/CMakeFiles/yolo.dir/build
+.PHONY : yolo/fast
+
+#=============================================================================
+# Target rules for targets named yolox
+
+# Build rule for target.
+yolox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolox
+.PHONY : yolox
+
+# fast build rule for target.
+yolox/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/yolox/CMakeFiles/yolox.dir/build.make tdl_sdk-build/modules/core/object_detection/yolox/CMakeFiles/yolox.dir/build
+.PHONY : yolox/fast
+
+#=============================================================================
+# Target rules for targets named ppyoloe
+
+# Build rule for target.
+ppyoloe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ppyoloe
+.PHONY : ppyoloe
+
+# fast build rule for target.
+ppyoloe/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/ppyoloe/CMakeFiles/ppyoloe.dir/build.make tdl_sdk-build/modules/core/object_detection/ppyoloe/CMakeFiles/ppyoloe.dir/build
+.PHONY : ppyoloe/fast
+
+#=============================================================================
+# Target rules for targets named thermal_person_detection
+
+# Build rule for target.
+thermal_person_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thermal_person_detection
+.PHONY : thermal_person_detection
+
+# fast build rule for target.
+thermal_person_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/thermal_person_detection/CMakeFiles/thermal_person_detection.dir/build.make tdl_sdk-build/modules/core/object_detection/thermal_person_detection/CMakeFiles/thermal_person_detection.dir/build
+.PHONY : thermal_person_detection/fast
+
+#=============================================================================
+# Target rules for targets named mobiledetv2
+
+# Build rule for target.
+mobiledetv2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mobiledetv2
+.PHONY : mobiledetv2
+
+# fast build rule for target.
+mobiledetv2/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/object_detection/mobiledetv2/CMakeFiles/mobiledetv2.dir/build.make tdl_sdk-build/modules/core/object_detection/mobiledetv2/CMakeFiles/mobiledetv2.dir/build
+.PHONY : mobiledetv2/fast
+
+#=============================================================================
+# Target rules for targets named deepsort
+
+# Build rule for target.
+deepsort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deepsort
+.PHONY : deepsort
+
+# fast build rule for target.
+deepsort/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/deepsort/CMakeFiles/deepsort.dir/build.make tdl_sdk-build/modules/core/deepsort/CMakeFiles/deepsort.dir/build
+.PHONY : deepsort/fast
+
+#=============================================================================
+# Target rules for targets named sound_classification
+
+# Build rule for target.
+sound_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sound_classification
+.PHONY : sound_classification
+
+# fast build rule for target.
+sound_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/sound_classification/CMakeFiles/sound_classification.dir/build.make tdl_sdk-build/modules/core/sound_classification/CMakeFiles/sound_classification.dir/build
+.PHONY : sound_classification/fast
+
+#=============================================================================
+# Target rules for targets named segmentation
+
+# Build rule for target.
+segmentation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segmentation
+.PHONY : segmentation
+
+# fast build rule for target.
+segmentation/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/segmentation/CMakeFiles/segmentation.dir/build.make tdl_sdk-build/modules/core/segmentation/CMakeFiles/segmentation.dir/build
+.PHONY : segmentation/fast
+
+#=============================================================================
+# Target rules for targets named topformer_seg
+
+# Build rule for target.
+topformer_seg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topformer_seg
+.PHONY : topformer_seg
+
+# fast build rule for target.
+topformer_seg/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/segmentation/topformer_seg/CMakeFiles/topformer_seg.dir/build.make tdl_sdk-build/modules/core/segmentation/topformer_seg/CMakeFiles/topformer_seg.dir/build
+.PHONY : topformer_seg/fast
+
+#=============================================================================
+# Target rules for targets named license_plate_detection
+
+# Build rule for target.
+license_plate_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 license_plate_detection
+.PHONY : license_plate_detection
+
+# fast build rule for target.
+license_plate_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/license_plate_detection/CMakeFiles/license_plate_detection.dir/build.make tdl_sdk-build/modules/core/license_plate_detection/CMakeFiles/license_plate_detection.dir/build
+.PHONY : license_plate_detection/fast
+
+#=============================================================================
+# Target rules for targets named face_landmarker
+
+# Build rule for target.
+face_landmarker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_landmarker
+.PHONY : face_landmarker
+
+# fast build rule for target.
+face_landmarker/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/face_landmarker/CMakeFiles/face_landmarker.dir/build.make tdl_sdk-build/modules/core/face_landmarker/CMakeFiles/face_landmarker.dir/build
+.PHONY : face_landmarker/fast
+
+#=============================================================================
+# Target rules for targets named incar_object_detection
+
+# Build rule for target.
+incar_object_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 incar_object_detection
+.PHONY : incar_object_detection
+
+# fast build rule for target.
+incar_object_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/incar_object_detection/CMakeFiles/incar_object_detection.dir/build.make tdl_sdk-build/modules/core/incar_object_detection/CMakeFiles/incar_object_detection.dir/build
+.PHONY : incar_object_detection/fast
+
+#=============================================================================
+# Target rules for targets named ivewrapper
+
+# Build rule for target.
+ivewrapper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ivewrapper
+.PHONY : ivewrapper
+
+# fast build rule for target.
+ivewrapper/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/ive/CMakeFiles/ivewrapper.dir/build.make tdl_sdk-build/modules/core/ive/CMakeFiles/ivewrapper.dir/build
+.PHONY : ivewrapper/fast
+
+#=============================================================================
+# Target rules for targets named tamper_detection
+
+# Build rule for target.
+tamper_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tamper_detection
+.PHONY : tamper_detection
+
+# fast build rule for target.
+tamper_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/tamper_detection/CMakeFiles/tamper_detection.dir/build.make tdl_sdk-build/modules/core/tamper_detection/CMakeFiles/tamper_detection.dir/build
+.PHONY : tamper_detection/fast
+
+#=============================================================================
+# Target rules for targets named motion_detection
+
+# Build rule for target.
+motion_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motion_detection
+.PHONY : motion_detection
+
+# fast build rule for target.
+motion_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/motion_detection/CMakeFiles/motion_detection.dir/build.make tdl_sdk-build/modules/core/motion_detection/CMakeFiles/motion_detection.dir/build
+.PHONY : motion_detection/fast
+
+#=============================================================================
+# Target rules for targets named yolov8_pose
+
+# Build rule for target.
+yolov8_pose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov8_pose
+.PHONY : yolov8_pose
+
+# fast build rule for target.
+yolov8_pose/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/human_keypoints_detection/yolov8_pose/CMakeFiles/yolov8_pose.dir/build.make tdl_sdk-build/modules/core/human_keypoints_detection/yolov8_pose/CMakeFiles/yolov8_pose.dir/build
+.PHONY : yolov8_pose/fast
+
+#=============================================================================
+# Target rules for targets named simcc
+
+# Build rule for target.
+simcc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simcc
+.PHONY : simcc
+
+# fast build rule for target.
+simcc/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/human_keypoints_detection/simcc/CMakeFiles/simcc.dir/build.make tdl_sdk-build/modules/core/human_keypoints_detection/simcc/CMakeFiles/simcc.dir/build
+.PHONY : simcc/fast
+
+#=============================================================================
+# Target rules for targets named hrnet
+
+# Build rule for target.
+hrnet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hrnet
+.PHONY : hrnet
+
+# fast build rule for target.
+hrnet/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/human_keypoints_detection/hrnet/CMakeFiles/hrnet.dir/build.make tdl_sdk-build/modules/core/human_keypoints_detection/hrnet/CMakeFiles/hrnet.dir/build
+.PHONY : hrnet/fast
+
+#=============================================================================
+# Target rules for targets named image_classification
+
+# Build rule for target.
+image_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_classification
+.PHONY : image_classification
+
+# fast build rule for target.
+image_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/image_classification/CMakeFiles/image_classification.dir/build.make tdl_sdk-build/modules/core/image_classification/CMakeFiles/image_classification.dir/build
+.PHONY : image_classification/fast
+
+#=============================================================================
+# Target rules for targets named raw_image_classification
+
+# Build rule for target.
+raw_image_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raw_image_classification
+.PHONY : raw_image_classification
+
+# fast build rule for target.
+raw_image_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/raw_image_classification/CMakeFiles/raw_image_classification.dir/build.make tdl_sdk-build/modules/core/raw_image_classification/CMakeFiles/raw_image_classification.dir/build
+.PHONY : raw_image_classification/fast
+
+#=============================================================================
+# Target rules for targets named motion_segmentation
+
+# Build rule for target.
+motion_segmentation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motion_segmentation
+.PHONY : motion_segmentation
+
+# fast build rule for target.
+motion_segmentation/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/motion_segmentation/CMakeFiles/motion_segmentation.dir/build.make tdl_sdk-build/modules/core/motion_segmentation/CMakeFiles/motion_segmentation.dir/build
+.PHONY : motion_segmentation/fast
+
+#=============================================================================
+# Target rules for targets named clip_image
+
+# Build rule for target.
+clip_image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clip_image
+.PHONY : clip_image
+
+# fast build rule for target.
+clip_image/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/clip/clip_image/CMakeFiles/clip_image.dir/build.make tdl_sdk-build/modules/core/clip/clip_image/CMakeFiles/clip_image.dir/build
+.PHONY : clip_image/fast
+
+#=============================================================================
+# Target rules for targets named clip_text
+
+# Build rule for target.
+clip_text: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clip_text
+.PHONY : clip_text
+
+# fast build rule for target.
+clip_text/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/clip/clip_text/CMakeFiles/clip_text.dir/build.make tdl_sdk-build/modules/core/clip/clip_text/CMakeFiles/clip_text.dir/build
+.PHONY : clip_text/fast
+
+#=============================================================================
+# Target rules for targets named blip_itm
+
+# Build rule for target.
+blip_itm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blip_itm
+.PHONY : blip_itm
+
+# fast build rule for target.
+blip_itm/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/blip/blip_itm/CMakeFiles/blip_itm.dir/build.make tdl_sdk-build/modules/core/blip/blip_itm/CMakeFiles/blip_itm.dir/build
+.PHONY : blip_itm/fast
+
+#=============================================================================
+# Target rules for targets named blip_vqa
+
+# Build rule for target.
+blip_vqa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blip_vqa
+.PHONY : blip_vqa
+
+# fast build rule for target.
+blip_vqa/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/blip/blip_vqa/CMakeFiles/blip_vqa.dir/build.make tdl_sdk-build/modules/core/blip/blip_vqa/CMakeFiles/blip_vqa.dir/build
+.PHONY : blip_vqa/fast
+
+#=============================================================================
+# Target rules for targets named blip_cap
+
+# Build rule for target.
+blip_cap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blip_cap
+.PHONY : blip_cap
+
+# fast build rule for target.
+blip_cap/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/blip/blip_cap/CMakeFiles/blip_cap.dir/build.make tdl_sdk-build/modules/core/blip/blip_cap/CMakeFiles/blip_cap.dir/build
+.PHONY : blip_cap/fast
+
+#=============================================================================
+# Target rules for targets named yolo_world_v2
+
+# Build rule for target.
+yolo_world_v2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolo_world_v2
+.PHONY : yolo_world_v2
+
+# fast build rule for target.
+yolo_world_v2/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/open_object_detection/yolo_world_v2/CMakeFiles/yolo_world_v2.dir/build.make tdl_sdk-build/modules/core/open_object_detection/yolo_world_v2/CMakeFiles/yolo_world_v2.dir/build
+.PHONY : yolo_world_v2/fast
+
+#=============================================================================
+# Target rules for targets named yolov8_seg
+
+# Build rule for target.
+yolov8_seg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolov8_seg
+.PHONY : yolov8_seg
+
+# fast build rule for target.
+yolov8_seg/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/instance_segmentation/yolov8_seg/CMakeFiles/yolov8_seg.dir/build.make tdl_sdk-build/modules/core/instance_segmentation/yolov8_seg/CMakeFiles/yolov8_seg.dir/build
+.PHONY : yolov8_seg/fast
+
+#=============================================================================
+# Target rules for targets named lane_detection
+
+# Build rule for target.
+lane_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lane_detection
+.PHONY : lane_detection
+
+# fast build rule for target.
+lane_detection/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/lane_detection/CMakeFiles/lane_detection.dir/build.make tdl_sdk-build/modules/core/lane_detection/CMakeFiles/lane_detection.dir/build
+.PHONY : lane_detection/fast
+
+#=============================================================================
+# Target rules for targets named polylanenet
+
+# Build rule for target.
+polylanenet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polylanenet
+.PHONY : polylanenet
+
+# fast build rule for target.
+polylanenet/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/lane_detection/polylanenet/CMakeFiles/polylanenet.dir/build.make tdl_sdk-build/modules/core/lane_detection/polylanenet/CMakeFiles/polylanenet.dir/build
+.PHONY : polylanenet/fast
+
+#=============================================================================
+# Target rules for targets named super_resolution
+
+# Build rule for target.
+super_resolution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 super_resolution
+.PHONY : super_resolution
+
+# fast build rule for target.
+super_resolution/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/super_resolution/CMakeFiles/super_resolution.dir/build.make tdl_sdk-build/modules/core/super_resolution/CMakeFiles/super_resolution.dir/build
+.PHONY : super_resolution/fast
+
+#=============================================================================
+# Target rules for targets named occlusion_classification
+
+# Build rule for target.
+occlusion_classification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 occlusion_classification
+.PHONY : occlusion_classification
+
+# fast build rule for target.
+occlusion_classification/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/occlusion_classification/CMakeFiles/occlusion_classification.dir/build.make tdl_sdk-build/modules/core/occlusion_classification/CMakeFiles/occlusion_classification.dir/build
+.PHONY : occlusion_classification/fast
+
+#=============================================================================
+# Target rules for targets named ocr_recognition
+
+# Build rule for target.
+ocr_recognition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ocr_recognition
+.PHONY : ocr_recognition
+
+# fast build rule for target.
+ocr_recognition/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/ocr/ocr_recognition/CMakeFiles/ocr_recognition.dir/build.make tdl_sdk-build/modules/core/ocr/ocr_recognition/CMakeFiles/ocr_recognition.dir/build
+.PHONY : ocr_recognition/fast
+
+#=============================================================================
+# Target rules for targets named lstr
+
+# Build rule for target.
+lstr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lstr
+.PHONY : lstr
+
+# fast build rule for target.
+lstr/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/lane_detection/lstr/CMakeFiles/lstr.dir/build.make tdl_sdk-build/modules/core/lane_detection/lstr/CMakeFiles/lstr.dir/build
+.PHONY : lstr/fast
+
+#=============================================================================
+# Target rules for targets named ir_liveness
+
+# Build rule for target.
+ir_liveness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ir_liveness
+.PHONY : ir_liveness
+
+# fast build rule for target.
+ir_liveness/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/liveness/ir_liveness/CMakeFiles/ir_liveness.dir/build.make tdl_sdk-build/modules/core/liveness/ir_liveness/CMakeFiles/ir_liveness.dir/build
+.PHONY : ir_liveness/fast
+
+#=============================================================================
+# Target rules for targets named stereo
+
+# Build rule for target.
+stereo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stereo
+.PHONY : stereo
+
+# fast build rule for target.
+stereo/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/core/depth_estimation/CMakeFiles/stereo.dir/build.make tdl_sdk-build/modules/core/depth_estimation/CMakeFiles/stereo.dir/build
+.PHONY : stereo/fast
+
+#=============================================================================
+# Target rules for targets named cvi_tdl_service
+
+# Build rule for target.
+cvi_tdl_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_tdl_service
+.PHONY : cvi_tdl_service
+
+# fast build rule for target.
+cvi_tdl_service/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/CMakeFiles/cvi_tdl_service.dir/build.make tdl_sdk-build/modules/service/CMakeFiles/cvi_tdl_service.dir/build
+.PHONY : cvi_tdl_service/fast
+
+#=============================================================================
+# Target rules for targets named digital_tracking
+
+# Build rule for target.
+digital_tracking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 digital_tracking
+.PHONY : digital_tracking
+
+# fast build rule for target.
+digital_tracking/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/digital_tracking/CMakeFiles/digital_tracking.dir/build.make tdl_sdk-build/modules/service/digital_tracking/CMakeFiles/digital_tracking.dir/build
+.PHONY : digital_tracking/fast
+
+#=============================================================================
+# Target rules for targets named draw_rect
+
+# Build rule for target.
+draw_rect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 draw_rect
+.PHONY : draw_rect
+
+# fast build rule for target.
+draw_rect/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/draw_rect/CMakeFiles/draw_rect.dir/build.make tdl_sdk-build/modules/service/draw_rect/CMakeFiles/draw_rect.dir/build
+.PHONY : draw_rect/fast
+
+#=============================================================================
+# Target rules for targets named tracker
+
+# Build rule for target.
+tracker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tracker
+.PHONY : tracker
+
+# fast build rule for target.
+tracker/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/tracker/CMakeFiles/tracker.dir/build.make tdl_sdk-build/modules/service/tracker/CMakeFiles/tracker.dir/build
+.PHONY : tracker/fast
+
+#=============================================================================
+# Target rules for targets named area_detect
+
+# Build rule for target.
+area_detect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 area_detect
+.PHONY : area_detect
+
+# fast build rule for target.
+area_detect/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/area_detect/CMakeFiles/area_detect.dir/build.make tdl_sdk-build/modules/service/area_detect/CMakeFiles/area_detect.dir/build
+.PHONY : area_detect/fast
+
+#=============================================================================
+# Target rules for targets named feature_matching
+
+# Build rule for target.
+feature_matching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 feature_matching
+.PHONY : feature_matching
+
+# fast build rule for target.
+feature_matching/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/feature_matching/CMakeFiles/feature_matching.dir/build.make tdl_sdk-build/modules/service/feature_matching/CMakeFiles/feature_matching.dir/build
+.PHONY : feature_matching/fast
+
+#=============================================================================
+# Target rules for targets named face_angle
+
+# Build rule for target.
+face_angle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 face_angle
+.PHONY : face_angle
+
+# fast build rule for target.
+face_angle/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/service/face_angle/CMakeFiles/face_angle.dir/build.make tdl_sdk-build/modules/service/face_angle/CMakeFiles/face_angle.dir/build
+.PHONY : face_angle/fast
+
+#=============================================================================
+# Target rules for targets named cvi_draw_rect
+
+# Build rule for target.
+cvi_draw_rect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_draw_rect
+.PHONY : cvi_draw_rect
+
+# fast build rule for target.
+cvi_draw_rect/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_draw_rect/CMakeFiles/cvi_draw_rect.dir/build.make tdl_sdk-build/modules/lib/cvi_draw_rect/CMakeFiles/cvi_draw_rect.dir/build
+.PHONY : cvi_draw_rect/fast
+
+#=============================================================================
+# Target rules for targets named cvi_draw_rect-static
+
+# Build rule for target.
+cvi_draw_rect-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_draw_rect-static
+.PHONY : cvi_draw_rect-static
+
+# fast build rule for target.
+cvi_draw_rect-static/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_draw_rect/CMakeFiles/cvi_draw_rect-static.dir/build.make tdl_sdk-build/modules/lib/cvi_draw_rect/CMakeFiles/cvi_draw_rect-static.dir/build
+.PHONY : cvi_draw_rect-static/fast
+
+#=============================================================================
+# Target rules for targets named cvi_md
+
+# Build rule for target.
+cvi_md: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_md
+.PHONY : cvi_md
+
+# fast build rule for target.
+cvi_md/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_md/CMakeFiles/cvi_md.dir/build.make tdl_sdk-build/modules/lib/cvi_md/CMakeFiles/cvi_md.dir/build
+.PHONY : cvi_md/fast
+
+#=============================================================================
+# Target rules for targets named cvi_md-static
+
+# Build rule for target.
+cvi_md-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_md-static
+.PHONY : cvi_md-static
+
+# fast build rule for target.
+cvi_md-static/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_md/CMakeFiles/cvi_md-static.dir/build.make tdl_sdk-build/modules/lib/cvi_md/CMakeFiles/cvi_md-static.dir/build
+.PHONY : cvi_md-static/fast
+
+#=============================================================================
+# Target rules for targets named cvi_preprocess
+
+# Build rule for target.
+cvi_preprocess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_preprocess
+.PHONY : cvi_preprocess
+
+# fast build rule for target.
+cvi_preprocess/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_preprocess/CMakeFiles/cvi_preprocess.dir/build.make tdl_sdk-build/modules/lib/cvi_preprocess/CMakeFiles/cvi_preprocess.dir/build
+.PHONY : cvi_preprocess/fast
+
+#=============================================================================
+# Target rules for targets named cvi_preprocess-static
+
+# Build rule for target.
+cvi_preprocess-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_preprocess-static
+.PHONY : cvi_preprocess-static
+
+# fast build rule for target.
+cvi_preprocess-static/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_preprocess/CMakeFiles/cvi_preprocess-static.dir/build.make tdl_sdk-build/modules/lib/cvi_preprocess/CMakeFiles/cvi_preprocess-static.dir/build
+.PHONY : cvi_preprocess-static/fast
+
+#=============================================================================
+# Target rules for targets named sample_lib_draw_rect
+
+# Build rule for target.
+sample_lib_draw_rect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sample_lib_draw_rect
+.PHONY : sample_lib_draw_rect
+
+# fast build rule for target.
+sample_lib_draw_rect/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/sample/CMakeFiles/sample_lib_draw_rect.dir/build.make tdl_sdk-build/modules/lib/sample/CMakeFiles/sample_lib_draw_rect.dir/build
+.PHONY : sample_lib_draw_rect/fast
+
+#=============================================================================
+# Target rules for targets named sample_lib_cvimd
+
+# Build rule for target.
+sample_lib_cvimd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sample_lib_cvimd
+.PHONY : sample_lib_cvimd
+
+# fast build rule for target.
+sample_lib_cvimd/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/sample/CMakeFiles/sample_lib_cvimd.dir/build.make tdl_sdk-build/modules/lib/sample/CMakeFiles/sample_lib_cvimd.dir/build
+.PHONY : sample_lib_cvimd/fast
+
+#=============================================================================
+# Target rules for targets named sample_lib_preprocess
+
+# Build rule for target.
+sample_lib_preprocess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sample_lib_preprocess
+.PHONY : sample_lib_preprocess
+
+# fast build rule for target.
+sample_lib_preprocess/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/sample/CMakeFiles/sample_lib_preprocess.dir/build.make tdl_sdk-build/modules/lib/sample/CMakeFiles/sample_lib_preprocess.dir/build
+.PHONY : sample_lib_preprocess/fast
+
+#=============================================================================
+# Target rules for targets named cvi_kit
+
+# Build rule for target.
+cvi_kit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_kit
+.PHONY : cvi_kit
+
+# fast build rule for target.
+cvi_kit/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_kit/CMakeFiles/cvi_kit.dir/build.make tdl_sdk-build/modules/lib/cvi_kit/CMakeFiles/cvi_kit.dir/build
+.PHONY : cvi_kit/fast
+
+#=============================================================================
+# Target rules for targets named cvi_kit-static
+
+# Build rule for target.
+cvi_kit-static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cvi_kit-static
+.PHONY : cvi_kit-static
+
+# fast build rule for target.
+cvi_kit-static/fast:
+	$(MAKE) $(MAKESILENT) -f tdl_sdk-build/modules/lib/cvi_kit/CMakeFiles/cvi_kit-static.dir/build.make tdl_sdk-build/modules/lib/cvi_kit/CMakeFiles/cvi_kit-static.dir/build
+.PHONY : cvi_kit-static/fast
 
 BLT/src/blt/fs/file_writers.o: BLT/src/blt/fs/file_writers.cpp.o
 .PHONY : BLT/src/blt/fs/file_writers.o
@@ -424,8 +1717,108 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... area_detect"
+	@echo "... blip_cap"
+	@echo "... blip_itm"
+	@echo "... blip_vqa"
+	@echo "... clip_image"
+	@echo "... clip_text"
+	@echo "... core"
+	@echo "... cvi_draw_rect"
+	@echo "... cvi_draw_rect-static"
+	@echo "... cvi_kit"
+	@echo "... cvi_kit-static"
+	@echo "... cvi_md"
+	@echo "... cvi_md-static"
+	@echo "... cvi_preprocess"
+	@echo "... cvi_preprocess-static"
+	@echo "... cvi_tdl"
+	@echo "... cvi_tdl-static"
+	@echo "... cvi_tdl_app"
+	@echo "... cvi_tdl_app-static"
+	@echo "... cvi_tdl_core"
+	@echo "... cvi_tdl_service"
+	@echo "... deepsort"
+	@echo "... digital_tracking"
+	@echo "... draw_rect"
+	@echo "... eye_classification"
+	@echo "... face_angle"
+	@echo "... face_attribute"
+	@echo "... face_attribute_cls"
+	@echo "... face_cap_utils"
+	@echo "... face_capture"
+	@echo "... face_landmarker"
+	@echo "... face_mask_detection"
+	@echo "... face_pet_capture"
+	@echo "... face_quality"
+	@echo "... fall_detection"
+	@echo "... feature_matching"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... hand_classification"
+	@echo "... hand_keypoint"
+	@echo "... hand_keypoint_classification"
+	@echo "... hrnet"
+	@echo "... image_classification"
+	@echo "... incar_object_detection"
+	@echo "... ir_liveness"
+	@echo "... isp_image_classification"
+	@echo "... ivewrapper"
+	@echo "... lane_detection"
+	@echo "... license_plate_detection"
+	@echo "... license_plate_keypoint"
+	@echo "... license_plate_recognition"
+	@echo "... liveness"
+	@echo "... lstr"
+	@echo "... mask_classification"
+	@echo "... mask_face_recognition"
+	@echo "... mobiledetv2"
+	@echo "... motion_detection"
+	@echo "... motion_segmentation"
+	@echo "... occlusion_classification"
+	@echo "... ocr_detection"
+	@echo "... ocr_recognition"
+	@echo "... osnet"
+	@echo "... person_capture"
+	@echo "... personvehicle_capture"
+	@echo "... polylanenet"
+	@echo "... ppyoloe"
+	@echo "... raw_image_classification"
+	@echo "... retina_face"
+	@echo "... sample_lib_cvimd"
+	@echo "... sample_lib_draw_rect"
+	@echo "... sample_lib_preprocess"
+	@echo "... segmentation"
+	@echo "... simcc"
+	@echo "... smoke_classification"
+	@echo "... smooth_keypoints"
+	@echo "... sound_classification"
+	@echo "... stereo"
+	@echo "... super_resolution"
+	@echo "... tamper_detection"
+	@echo "... thermal_face_detection"
+	@echo "... thermal_person_detection"
+	@echo "... topformer_seg"
+	@echo "... tracker"
+	@echo "... utils"
+	@echo "... vehicle_adas"
 	@echo "... video_feed"
+	@echo "... yawn_classification"
+	@echo "... yolo"
+	@echo "... yolo_world_v2"
+	@echo "... yolov10"
+	@echo "... yolov3"
+	@echo "... yolov5"
+	@echo "... yolov6"
+	@echo "... yolov8"
+	@echo "... yolov8_pose"
+	@echo "... yolov8_seg"
+	@echo "... yolox"
 	@echo "... BLT/src/blt/fs/file_writers.o"
 	@echo "... BLT/src/blt/fs/file_writers.i"
 	@echo "... BLT/src/blt/fs/file_writers.s"

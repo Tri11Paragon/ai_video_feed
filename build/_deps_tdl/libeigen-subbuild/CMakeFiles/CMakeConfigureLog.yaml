@@ -1,0 +1,64 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/"
+      - "/home/brett/.local/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/brett/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/brett/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/brett/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/"
+      - "/home/brett/.platformio/penv/bin/"
+    found: "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin"
+        - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin"
+        - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin"
+        - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin"
+        - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin"
+        - "/home/brett/.local/bin"
+        - "/run/wrappers/bin"
+        - "/home/brett/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/brett/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/brett/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
+        - "/home/brett/.platformio/penv/bin"
+        - "/home/brett/.local/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.18.54 - x86_64
+...

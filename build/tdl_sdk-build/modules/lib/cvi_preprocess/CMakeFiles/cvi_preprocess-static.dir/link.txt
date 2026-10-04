@@ -1,0 +1,2 @@
+/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcvi_preprocess.a "CMakeFiles/cvi_preprocess-static.dir/__/__/core/core/vpss_engine.cpp.o" "CMakeFiles/cvi_preprocess-static.dir/cvi_bmcv.cpp.o"
+/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcvi_preprocess.a

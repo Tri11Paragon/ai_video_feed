@@ -3,28 +3,28 @@
 
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/file_writers.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/file_writers.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/defines.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/array
@@ -136,26 +136,26 @@ CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/path_helper.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/compatibility.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/path_helper.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/string_algo.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -297,29 +297,29 @@ CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/fs/stream_wrappers.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/stream_wrappers.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/meta/serialization.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/meta/type_traits.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/defines.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/array
@@ -434,25 +434,25 @@ CMakeFiles/video_feed.dir/BLT/src/blt/fs/stream_wrappers.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/ansi.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/logging/ansi.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/defines.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/array
@@ -547,26 +547,26 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/ansi.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/fmt_tokenizer.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/logging/fmt_tokenizer.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/defines.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/array
@@ -710,29 +710,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/fmt_tokenizer.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/logging.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/logging/fmt_tokenizer.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/logging/fwddecl.h
@@ -750,6 +727,29 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_config.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_fwd_decl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_utils.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -943,29 +943,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/logging_config.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/config.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/path_helper.h
@@ -986,6 +963,29 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_config.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_fwd_decl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_utils.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -1168,30 +1168,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/logging_config.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/logging/status.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/posix.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/termios.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/termios.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/unistd.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/compatibility.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/iterator/common.h
@@ -1220,6 +1196,30 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/string_algo.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/types.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/utility.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/posix.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/termios.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/termios.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/unistd.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -1387,29 +1387,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/logging/status.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/parse/argparse_v2.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/compatibility.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/debug.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
@@ -1447,6 +1424,29 @@ CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_config.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_fwd_decl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_utils.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -1634,25 +1634,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/parse/argparse_v2.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/std/assert.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/compatibility.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/debug.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
@@ -1666,6 +1647,25 @@ CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/string_algo.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/types.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/utility.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -1822,25 +1822,25 @@ CMakeFiles/video_feed.dir/BLT/src/blt/std/assert.cpp.o
 
 CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/src/blt/std/string_algo.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/compatibility.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/std/string_algo.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/algorithm
@@ -1982,60 +1982,6 @@ CMakeFiles/video_feed.dir/BLT/src/blt/std/string_algo.cpp.o
 
 CMakeFiles/video_feed.dir/src/yolo.cpp.o
  /home/brett/Documents/code/milkv/video_feed/src/yolo.cpp
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/bitsperlong.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/int-ll64.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/ioctl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/posix_types.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/types.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/bitsperlong.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/ioctl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/posix_types.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/types.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/fcntl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/ioctl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/ioctl_fix.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/mman.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/posix.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/signal.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/fcntl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/inttypes.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/ioctl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/posix_types.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/stddef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/types.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/v4l2-common.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/v4l2-controls.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/videodev2.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/signal.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/ioctl.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/mman.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/select.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/syslog.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/unistd.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
- /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/compatibility.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/debug.h
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h
@@ -2071,48 +2017,101 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_config.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_fwd_decl.h
  /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_utils.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/core/cvtdl_core_types.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/core/cvtdl_errno.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/core/cvtdl_vpss_types.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/cvi_tdl_core.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/cvi_tdl_custom.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/cvi_tdl_rescale_bbox.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/cvi_tdl_types_mem.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/cvi_tdl_utils.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/deepsort/cvtdl_deepsort_types.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/face/cvtdl_face_helper.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/face/cvtdl_face_types.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/object/cvtdl_object_types.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/core/utils/vpss_helper.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/cvi_comm.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/cvi_tdl.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/cvi_tdl_media.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/service/cvi_tdl_service.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/include/cvi_tdl/service/cvi_tdl_service_types.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_buffer.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_comm_vb.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_debug.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_sys.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_type.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_vb.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_vdec.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_venc.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/cvi_vpss.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_base.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_gdc.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_rc.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_sys.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_vdec.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_venc.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_video.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_comm_vpss.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_common.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_defines.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_errno.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_math.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/middleware/v2/include/linux/cvi_type.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/rtsp/include/cvi_rtsp/defs.h
- /home/brett/Documents/code/milkv/video_feed/cvitek-tdl-sdk-sg200x/sample/3rd/rtsp/include/cvi_rtsp/rtsp.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/bitsperlong.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/int-ll64.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/ioctl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/posix_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/bitsperlong.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/ioctl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/posix_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/fcntl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/ioctl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/ioctl_fix.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/mman.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/posix.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/signal.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/fcntl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/inttypes.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/limits.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/ioctl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/posix_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/stddef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/v4l2-common.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/v4l2-controls.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/videodev2.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/signal.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/ioctl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/mman.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/select.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/syslog.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/unistd.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wchar.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/wctype.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_buffer.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_comm_vb.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_debug.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_sys.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_vb.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_vdec.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_venc.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/cvi_vpss.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_base.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_gdc.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_rc.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_sys.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_vdec.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_venc.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_video.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_comm_vpss.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_common.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_cv181x_defines.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_defines.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_math.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux/cvi_type.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_rtsp/install/include/cvi_rtsp/defs.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_rtsp/install/include/cvi_rtsp/rtsp.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/core/cvtdl_core_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/core/cvtdl_errno.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/core/cvtdl_vpss_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/cvi_tdl_core.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/cvi_tdl_rescale_bbox.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/cvi_tdl_types_mem.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/cvi_tdl_utils.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/deepsort/cvtdl_deepsort_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/face/cvtdl_face_helper.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/face/cvtdl_face_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/object/cvtdl_object_types.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/utils/vpss_helper.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_comm.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_media.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service.h
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service_types.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdbool.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h
  /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h

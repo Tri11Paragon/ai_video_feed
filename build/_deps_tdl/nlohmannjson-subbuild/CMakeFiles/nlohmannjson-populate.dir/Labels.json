@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/CMakeFiles/nlohmannjson-populate"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/CMakeFiles/nlohmannjson-populate.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/CMakeFiles/nlohmannjson-populate-complete.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-build.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-configure.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-download.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-install.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-patch.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-test.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/nlohmannjson-subbuild/nlohmannjson-populate-prefix/src/nlohmannjson-populate-stamp/nlohmannjson-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmannjson-populate"
+		],
+		"name" : "nlohmannjson-populate"
+	}
+}

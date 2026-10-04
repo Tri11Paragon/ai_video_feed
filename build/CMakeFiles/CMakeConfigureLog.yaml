@@ -145,8 +145,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -190,8 +190,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "message-v1"
     backtrace:
@@ -253,8 +253,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "message-v1"
     backtrace:
@@ -333,8 +333,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -391,8 +391,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -449,8 +449,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -507,8 +507,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -565,8 +565,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -623,8 +623,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -681,8 +681,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -739,8 +739,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -830,8 +830,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -888,8 +888,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -979,8 +979,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -1088,8 +1088,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -1197,8 +1197,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -1242,8 +1242,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "message-v1"
     backtrace:
@@ -1305,8 +1305,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "message-v1"
     backtrace:
@@ -1436,8 +1436,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "find-v1"
     backtrace:
@@ -1545,8 +1545,8 @@ events:
         - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
         - "/home/brett/.platformio/penv/bin"
         - "/home/brett/.local/bin"
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
-      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1556,25 +1556,26 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG"
-      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG"
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l"
     cmakeVariables:
       CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_C_FLAGS: "-Os"
+      CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG'
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l'
         
-        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_cd679/fast
-        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_cd679.dir/build.make CMakeFiles/cmTC_cd679.dir/build
-        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG'
-        Building C object CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_61cd6/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_61cd6.dir/build.make CMakeFiles/cmTC_61cd6.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l'
+        Building C object CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc
         Target: riscv64-unknown-linux-musl
@@ -1582,36 +1583,36 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccvoHR6b.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccTPdpLT.s
         GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
         #include "..." search starts here:
         #include <...> search starts here:
          /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include
          /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include
-         /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include
         End of search list.
         GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o /tmp/ccvoHR6b.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o /tmp/ccTPdpLT.s
         GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
         COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
-        LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-        Linking C static library libcmTC_cd679.a
-        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_cd679.dir/cmake_clean_target.cmake
-        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd679.dir/link.txt --verbose=1
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_cd679.a CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_cd679.a
-        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG'
+        LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+        Linking C static library libcmTC_61cd6.a
+        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_61cd6.dir/cmake_clean_target.cmake
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd6.dir/link.txt --verbose=1
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_61cd6.a CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_61cd6.a
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l'
         
       exitCode: 0
   -
@@ -1626,12 +1627,10 @@ events:
         found start of implicit include info
           add: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
           add: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
-          add: [/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
         end of search list found
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include]
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
-        collapse include dir [/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include] ==> [/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
-        implicit include dirs: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include;/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+        implicit include dirs: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
       
       
   -
@@ -1644,13 +1643,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG']
+        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l']
         ignore line: []
-        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_cd679/fast]
-        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_cd679.dir/build.make CMakeFiles/cmTC_cd679.dir/build]
-        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG']
-        ignore line: [Building C object CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_61cd6/fast]
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_61cd6.dir/build.make CMakeFiles/cmTC_61cd6.dir/build]
+        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l']
+        ignore line: [Building C object CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc]
         ignore line: [Target: riscv64-unknown-linux-musl]
@@ -1658,36 +1657,36 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccvoHR6b.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccTPdpLT.s]
         ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
         ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
-        ignore line: [ /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
         ignore line: [End of search list.]
         ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o /tmp/ccvoHR6b.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o /tmp/ccTPdpLT.s]
         ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
         ignore line: [COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
-        ignore line: [LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [Linking C static library libcmTC_cd679.a]
-        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_cd679.dir/cmake_clean_target.cmake]
-        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd679.dir/link.txt --verbose=1]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_cd679.a CMakeFiles/cmTC_cd679.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_cd679.a]
-        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HnziwG']
+        ignore line: [LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [Linking C static library libcmTC_61cd6.a]
+        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_61cd6.dir/cmake_clean_target.cmake]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd6.dir/link.txt --verbose=1]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_61cd6.a CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_61cd6.a]
+        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -1705,26 +1704,27 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn"
-      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn"
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y"
     cmakeVariables:
       CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_CXX_FLAGS: "-Os"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn'
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y'
         
-        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_58bce/fast
-        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_58bce.dir/build.make CMakeFiles/cmTC_58bce.dir/build
-        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn'
-        Building CXX object CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_90c0d/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_90c0d.dir/build.make CMakeFiles/cmTC_90c0d.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y'
+        Building CXX object CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++
         Target: riscv64-unknown-linux-musl
@@ -1732,16 +1732,17 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/cc08LwXf.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/ccMPoopX.s
         GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward"
-        ignoring nonexistent directory "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
         #include "..." search starts here:
         #include <...> search starts here:
@@ -1750,24 +1751,23 @@ events:
          /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward
          /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include
          /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include
-         /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include
         End of search list.
         GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: c78667711b16100ed13280635b840c3a
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc08LwXf.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMPoopX.s
         GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
         COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
-        LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-        Linking CXX static library libcmTC_58bce.a
-        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_58bce.dir/cmake_clean_target.cmake
-        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58bce.dir/link.txt --verbose=1
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_58bce.a CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_58bce.a
-        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn'
+        LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+        Linking CXX static library libcmTC_90c0d.a
+        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_90c0d.dir/cmake_clean_target.cmake
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c0d.dir/link.txt --verbose=1
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_90c0d.a CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_90c0d.a
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y'
         
       exitCode: 0
   -
@@ -1785,15 +1785,13 @@ events:
           add: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward]
           add: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
           add: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
-          add: [/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
         end of search list found
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0]
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d]
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/backward]
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include]
         collapse include dir [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include] ==> [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
-        collapse include dir [/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include] ==> [/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
-        implicit include dirs: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/backward;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include;/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+        implicit include dirs: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/backward;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include;/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
       
       
   -
@@ -1806,13 +1804,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn']
+        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y']
         ignore line: []
-        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_58bce/fast]
-        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_58bce.dir/build.make CMakeFiles/cmTC_58bce.dir/build]
-        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn']
-        ignore line: [Building CXX object CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_90c0d/fast]
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_90c0d.dir/build.make CMakeFiles/cmTC_90c0d.dir/build]
+        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y']
+        ignore line: [Building CXX object CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++]
         ignore line: [Target: riscv64-unknown-linux-musl]
@@ -1820,16 +1818,17 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/cc08LwXf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/ccMPoopX.s]
         ignore line: [GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward"]
-        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
@@ -1838,24 +1837,23 @@ events:
         ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward]
         ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include]
         ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include]
-        ignore line: [ /home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
         ignore line: [End of search list.]
         ignore line: [GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: c78667711b16100ed13280635b840c3a]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc08LwXf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMPoopX.s]
         ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
         ignore line: [COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
-        ignore line: [LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/lp64d/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/brett/Documents/code/milkv/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [Linking CXX static library libcmTC_58bce.a]
-        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_58bce.dir/cmake_clean_target.cmake]
-        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58bce.dir/link.txt --verbose=1]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_58bce.a CMakeFiles/cmTC_58bce.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_58bce.a]
-        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-Zv12xn']
+        ignore line: [LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [Linking CXX static library libcmTC_90c0d.a]
+        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_90c0d.dir/cmake_clean_target.cmake]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c0d.dir/link.txt --verbose=1]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_90c0d.a CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_90c0d.a]
+        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -1864,4 +1862,679 @@ events:
         implicit fwks: []
       
       
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindPython/Support.cmake:2187 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindPython.cmake:706 (include)"
+      - "build/_deps_tdl/googletest-src/googletest/cmake/internal_utils.cmake:253 (find_package)"
+      - "build/_deps_tdl/googletest-src/googletest/CMakeLists.txt:91 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15mu"
+      - "python3.15m"
+      - "python3.15u"
+      - "python3.15"
+      - "python3.15dmu"
+      - "python3.15dm"
+      - "python3.15du"
+      - "python3.15d"
+      - "python3"
+      - "python"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin"
+        - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin"
+        - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin"
+        - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin"
+        - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin"
+        - "/home/brett/.local/bin"
+        - "/run/wrappers/bin"
+        - "/home/brett/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/brett/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/brett/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
+        - "/home/brett/.platformio/penv/bin"
+        - "/home/brett/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../sysroot/usr"
+        - "/run/current-system/sw"
+        - "/usr/local"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindPython/Support.cmake:2200 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindPython.cmake:706 (include)"
+      - "build/_deps_tdl/googletest-src/googletest/cmake/internal_utils.cmake:253 (find_package)"
+      - "build/_deps_tdl/googletest-src/googletest/CMakeLists.txt:91 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14mu"
+      - "python3.14m"
+      - "python3.14u"
+      - "python3.14"
+      - "python3.14dmu"
+      - "python3.14dm"
+      - "python3.14du"
+      - "python3.14d"
+      - "python3"
+      - "python"
+    candidate_directories:
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/"
+      - "/home/brett/.local/bin/bin/"
+      - "/home/brett/.local/bin/Scripts/"
+      - "/home/brett/.local/bin/"
+      - "/run/wrappers/bin/bin/"
+      - "/run/wrappers/bin/Scripts/"
+      - "/run/wrappers/bin/"
+      - "/home/brett/.nix-profile/bin/bin/"
+      - "/home/brett/.nix-profile/bin/Scripts/"
+      - "/home/brett/.nix-profile/bin/"
+      - "/nix/profile/bin/bin/"
+      - "/nix/profile/bin/Scripts/"
+      - "/nix/profile/bin/"
+      - "/home/brett/.local/state/nix/profile/bin/bin/"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/"
+      - "/home/brett/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/brett/bin/bin/"
+      - "/etc/profiles/per-user/brett/bin/Scripts/"
+      - "/etc/profiles/per-user/brett/bin/"
+      - "/nix/var/nix/profiles/default/bin/bin/"
+      - "/nix/var/nix/profiles/default/bin/Scripts/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/bin/"
+      - "/run/current-system/sw/bin/Scripts/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/"
+      - "/home/brett/.platformio/penv/bin/bin/"
+      - "/home/brett/.platformio/penv/bin/Scripts/"
+      - "/home/brett/.platformio/penv/bin/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/bin/bin/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/bin/Scripts/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/bin/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/sbin/bin/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/sbin/Scripts/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/sbin/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/bin/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/Scripts/"
+      - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/sysroot/usr/"
+      - "/run/current-system/sw/bin/bin/"
+      - "/run/current-system/sw/bin/Scripts/"
+      - "/run/current-system/sw/bin/"
+      - "/run/current-system/sw/sbin/bin/"
+      - "/run/current-system/sw/sbin/Scripts/"
+      - "/run/current-system/sw/sbin/"
+      - "/run/current-system/sw/bin/"
+      - "/run/current-system/sw/Scripts/"
+      - "/run/current-system/sw/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/Scripts/"
+      - "/usr/local/"
+    searched_directories:
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14mu"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14m"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14u"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14dmu"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14dm"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14du"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3.14d"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python3"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/bin/python"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14mu"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14m"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14u"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14dmu"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14dm"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14du"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3.14d"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python3"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/Scripts/python"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14mu"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14m"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14u"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14dmu"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14dm"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14du"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3.14d"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python3"
+      - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/python"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14mu"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14m"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14u"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14dmu"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14dm"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14du"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3.14d"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python3"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/bin/python"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14mu"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14m"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14u"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14dmu"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14dm"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14du"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3.14d"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python3"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/Scripts/python"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14mu"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14m"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14u"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14dmu"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14dm"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14du"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3.14d"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python3"
+      - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin/python"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14mu"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14m"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14u"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14dmu"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14dm"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14du"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3.14d"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python3"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/bin/python"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14mu"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14m"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14u"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14dmu"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14dm"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14du"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3.14d"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python3"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/Scripts/python"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14mu"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14m"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14u"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14dmu"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14dm"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14du"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3.14d"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python3"
+      - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/python"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14mu"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14m"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14u"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14dmu"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14dm"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14du"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3.14d"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python3"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/bin/python"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14mu"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14m"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14u"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14dmu"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14dm"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14du"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3.14d"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python3"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/Scripts/python"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14mu"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14m"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14u"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14dmu"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14dm"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14du"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3.14d"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python3"
+      - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin/python"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14mu"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14m"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14u"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14dmu"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14dm"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14du"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3.14d"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python3"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/bin/python"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14mu"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14m"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14u"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14dmu"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14dm"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14du"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3.14d"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python3"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/Scripts/python"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14mu"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14m"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14u"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14dmu"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14dm"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14du"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3.14d"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python3"
+      - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin/python"
+      - "/home/brett/.local/bin/bin/python3.14mu"
+      - "/home/brett/.local/bin/bin/python3.14m"
+      - "/home/brett/.local/bin/bin/python3.14u"
+      - "/home/brett/.local/bin/bin/python3.14"
+      - "/home/brett/.local/bin/bin/python3.14dmu"
+      - "/home/brett/.local/bin/bin/python3.14dm"
+      - "/home/brett/.local/bin/bin/python3.14du"
+      - "/home/brett/.local/bin/bin/python3.14d"
+      - "/home/brett/.local/bin/bin/python3"
+      - "/home/brett/.local/bin/bin/python"
+      - "/home/brett/.local/bin/Scripts/python3.14mu"
+      - "/home/brett/.local/bin/Scripts/python3.14m"
+      - "/home/brett/.local/bin/Scripts/python3.14u"
+      - "/home/brett/.local/bin/Scripts/python3.14"
+      - "/home/brett/.local/bin/Scripts/python3.14dmu"
+      - "/home/brett/.local/bin/Scripts/python3.14dm"
+      - "/home/brett/.local/bin/Scripts/python3.14du"
+      - "/home/brett/.local/bin/Scripts/python3.14d"
+      - "/home/brett/.local/bin/Scripts/python3"
+      - "/home/brett/.local/bin/Scripts/python"
+      - "/home/brett/.local/bin/python3.14mu"
+      - "/home/brett/.local/bin/python3.14m"
+      - "/home/brett/.local/bin/python3.14u"
+      - "/home/brett/.local/bin/python3.14"
+      - "/home/brett/.local/bin/python3.14dmu"
+      - "/home/brett/.local/bin/python3.14dm"
+      - "/home/brett/.local/bin/python3.14du"
+      - "/home/brett/.local/bin/python3.14d"
+      - "/home/brett/.local/bin/python3"
+      - "/home/brett/.local/bin/python"
+      - "/run/wrappers/bin/bin/python3.14mu"
+      - "/run/wrappers/bin/bin/python3.14m"
+      - "/run/wrappers/bin/bin/python3.14u"
+      - "/run/wrappers/bin/bin/python3.14"
+      - "/run/wrappers/bin/bin/python3.14dmu"
+      - "/run/wrappers/bin/bin/python3.14dm"
+      - "/run/wrappers/bin/bin/python3.14du"
+      - "/run/wrappers/bin/bin/python3.14d"
+      - "/run/wrappers/bin/bin/python3"
+      - "/run/wrappers/bin/bin/python"
+      - "/run/wrappers/bin/Scripts/python3.14mu"
+      - "/run/wrappers/bin/Scripts/python3.14m"
+      - "/run/wrappers/bin/Scripts/python3.14u"
+      - "/run/wrappers/bin/Scripts/python3.14"
+      - "/run/wrappers/bin/Scripts/python3.14dmu"
+      - "/run/wrappers/bin/Scripts/python3.14dm"
+      - "/run/wrappers/bin/Scripts/python3.14du"
+      - "/run/wrappers/bin/Scripts/python3.14d"
+      - "/run/wrappers/bin/Scripts/python3"
+      - "/run/wrappers/bin/Scripts/python"
+      - "/run/wrappers/bin/python3.14mu"
+      - "/run/wrappers/bin/python3.14m"
+      - "/run/wrappers/bin/python3.14u"
+      - "/run/wrappers/bin/python3.14"
+      - "/run/wrappers/bin/python3.14dmu"
+      - "/run/wrappers/bin/python3.14dm"
+      - "/run/wrappers/bin/python3.14du"
+      - "/run/wrappers/bin/python3.14d"
+      - "/run/wrappers/bin/python3"
+      - "/run/wrappers/bin/python"
+      - "/home/brett/.nix-profile/bin/bin/python3.14mu"
+      - "/home/brett/.nix-profile/bin/bin/python3.14m"
+      - "/home/brett/.nix-profile/bin/bin/python3.14u"
+      - "/home/brett/.nix-profile/bin/bin/python3.14"
+      - "/home/brett/.nix-profile/bin/bin/python3.14dmu"
+      - "/home/brett/.nix-profile/bin/bin/python3.14dm"
+      - "/home/brett/.nix-profile/bin/bin/python3.14du"
+      - "/home/brett/.nix-profile/bin/bin/python3.14d"
+      - "/home/brett/.nix-profile/bin/bin/python3"
+      - "/home/brett/.nix-profile/bin/bin/python"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14mu"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14m"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14u"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14dmu"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14dm"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14du"
+      - "/home/brett/.nix-profile/bin/Scripts/python3.14d"
+      - "/home/brett/.nix-profile/bin/Scripts/python3"
+      - "/home/brett/.nix-profile/bin/Scripts/python"
+      - "/home/brett/.nix-profile/bin/python3.14mu"
+      - "/home/brett/.nix-profile/bin/python3.14m"
+      - "/home/brett/.nix-profile/bin/python3.14u"
+      - "/home/brett/.nix-profile/bin/python3.14"
+      - "/home/brett/.nix-profile/bin/python3.14dmu"
+      - "/home/brett/.nix-profile/bin/python3.14dm"
+      - "/home/brett/.nix-profile/bin/python3.14du"
+      - "/home/brett/.nix-profile/bin/python3.14d"
+      - "/home/brett/.nix-profile/bin/python3"
+      - "/home/brett/.nix-profile/bin/python"
+      - "/nix/profile/bin/bin/python3.14mu"
+      - "/nix/profile/bin/bin/python3.14m"
+      - "/nix/profile/bin/bin/python3.14u"
+      - "/nix/profile/bin/bin/python3.14"
+      - "/nix/profile/bin/bin/python3.14dmu"
+      - "/nix/profile/bin/bin/python3.14dm"
+      - "/nix/profile/bin/bin/python3.14du"
+      - "/nix/profile/bin/bin/python3.14d"
+      - "/nix/profile/bin/bin/python3"
+      - "/nix/profile/bin/bin/python"
+      - "/nix/profile/bin/Scripts/python3.14mu"
+      - "/nix/profile/bin/Scripts/python3.14m"
+      - "/nix/profile/bin/Scripts/python3.14u"
+      - "/nix/profile/bin/Scripts/python3.14"
+      - "/nix/profile/bin/Scripts/python3.14dmu"
+      - "/nix/profile/bin/Scripts/python3.14dm"
+      - "/nix/profile/bin/Scripts/python3.14du"
+      - "/nix/profile/bin/Scripts/python3.14d"
+      - "/nix/profile/bin/Scripts/python3"
+      - "/nix/profile/bin/Scripts/python"
+      - "/nix/profile/bin/python3.14mu"
+      - "/nix/profile/bin/python3.14m"
+      - "/nix/profile/bin/python3.14u"
+      - "/nix/profile/bin/python3.14"
+      - "/nix/profile/bin/python3.14dmu"
+      - "/nix/profile/bin/python3.14dm"
+      - "/nix/profile/bin/python3.14du"
+      - "/nix/profile/bin/python3.14d"
+      - "/nix/profile/bin/python3"
+      - "/nix/profile/bin/python"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14mu"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14m"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14u"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14dmu"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14dm"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14du"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3.14d"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python3"
+      - "/home/brett/.local/state/nix/profile/bin/bin/python"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14mu"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14m"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14u"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14dmu"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14dm"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14du"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3.14d"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python3"
+      - "/home/brett/.local/state/nix/profile/bin/Scripts/python"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14mu"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14m"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14u"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14dmu"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14dm"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14du"
+      - "/home/brett/.local/state/nix/profile/bin/python3.14d"
+      - "/home/brett/.local/state/nix/profile/bin/python3"
+      - "/home/brett/.local/state/nix/profile/bin/python"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14mu"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14m"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14u"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14dmu"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14dm"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14du"
+      - "/etc/profiles/per-user/brett/bin/bin/python3.14d"
+      - "/etc/profiles/per-user/brett/bin/bin/python3"
+      - "/etc/profiles/per-user/brett/bin/bin/python"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14mu"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14m"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14u"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14dmu"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14dm"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14du"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3.14d"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python3"
+      - "/etc/profiles/per-user/brett/bin/Scripts/python"
+      - "/etc/profiles/per-user/brett/bin/python3.14mu"
+      - "/etc/profiles/per-user/brett/bin/python3.14m"
+      - "/etc/profiles/per-user/brett/bin/python3.14u"
+      - "/etc/profiles/per-user/brett/bin/python3.14"
+      - "/etc/profiles/per-user/brett/bin/python3.14dmu"
+      - "/etc/profiles/per-user/brett/bin/python3.14dm"
+      - "/etc/profiles/per-user/brett/bin/python3.14du"
+      - "/etc/profiles/per-user/brett/bin/python3.14d"
+      - "/etc/profiles/per-user/brett/bin/python3"
+      - "/etc/profiles/per-user/brett/bin/python"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14mu"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14m"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14u"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14dmu"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14dm"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14du"
+      - "/nix/var/nix/profiles/default/bin/bin/python3.14d"
+      - "/nix/var/nix/profiles/default/bin/bin/python3"
+      - "/nix/var/nix/profiles/default/bin/bin/python"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14mu"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14m"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14u"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14dmu"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14dm"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14du"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3.14d"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python3"
+      - "/nix/var/nix/profiles/default/bin/Scripts/python"
+      - "/nix/var/nix/profiles/default/bin/python3.14mu"
+      - "/nix/var/nix/profiles/default/bin/python3.14m"
+      - "/nix/var/nix/profiles/default/bin/python3.14u"
+      - "/nix/var/nix/profiles/default/bin/python3.14"
+      - "/nix/var/nix/profiles/default/bin/python3.14dmu"
+      - "/nix/var/nix/profiles/default/bin/python3.14dm"
+      - "/nix/var/nix/profiles/default/bin/python3.14du"
+      - "/nix/var/nix/profiles/default/bin/python3.14d"
+      - "/nix/var/nix/profiles/default/bin/python3"
+      - "/nix/var/nix/profiles/default/bin/python"
+      - "/run/current-system/sw/bin/bin/python3.14mu"
+      - "/run/current-system/sw/bin/bin/python3.14m"
+      - "/run/current-system/sw/bin/bin/python3.14u"
+      - "/run/current-system/sw/bin/bin/python3.14"
+      - "/run/current-system/sw/bin/bin/python3.14dmu"
+      - "/run/current-system/sw/bin/bin/python3.14dm"
+      - "/run/current-system/sw/bin/bin/python3.14du"
+      - "/run/current-system/sw/bin/bin/python3.14d"
+      - "/run/current-system/sw/bin/bin/python3"
+      - "/run/current-system/sw/bin/bin/python"
+      - "/run/current-system/sw/bin/Scripts/python3.14mu"
+      - "/run/current-system/sw/bin/Scripts/python3.14m"
+      - "/run/current-system/sw/bin/Scripts/python3.14u"
+      - "/run/current-system/sw/bin/Scripts/python3.14"
+      - "/run/current-system/sw/bin/Scripts/python3.14dmu"
+      - "/run/current-system/sw/bin/Scripts/python3.14dm"
+      - "/run/current-system/sw/bin/Scripts/python3.14du"
+      - "/run/current-system/sw/bin/Scripts/python3.14d"
+      - "/run/current-system/sw/bin/Scripts/python3"
+      - "/run/current-system/sw/bin/Scripts/python"
+      - "/run/current-system/sw/bin/python3.14mu"
+      - "/run/current-system/sw/bin/python3.14m"
+      - "/run/current-system/sw/bin/python3.14u"
+      - "/run/current-system/sw/bin/python3.14"
+      - "/run/current-system/sw/bin/python3.14dmu"
+      - "/run/current-system/sw/bin/python3.14dm"
+      - "/run/current-system/sw/bin/python3.14du"
+      - "/run/current-system/sw/bin/python3.14d"
+      - "/run/current-system/sw/bin/python3"
+      - "/run/current-system/sw/bin/python"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14mu"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14m"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14u"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14dmu"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14dm"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14du"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3.14d"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python3"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/bin/python"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14mu"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14m"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14u"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14dmu"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14dm"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14du"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3.14d"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python3"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/Scripts/python"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/python3.14mu"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/python3.14m"
+      - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/python3.14u"
+    found: "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin/python3.14"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin"
+        - "/nix/store/msr1v91ybfw6j12rs5mfl8ghb2rqsnsr-git-2.55.0/bin"
+        - "/nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin"
+        - "/nix/store/sxhq6bckb6mh3wa6gfsgczry8w75kfav-jetbrains-jdk-25.0.3-b508.4/bin"
+        - "/nix/store/78qwx7m2n6msg81zs4zzjzfqm3a3i8vv-which-2.25/bin"
+        - "/home/brett/.local/bin"
+        - "/run/wrappers/bin"
+        - "/home/brett/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/brett/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/brett/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/d64q19q1xjdwfhqx6czvrjgrhq0n3lcc-python3-3.14.7/bin"
+        - "/home/brett/.platformio/penv/bin"
+        - "/home/brett/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../sysroot/usr"
+        - "/run/current-system/sw"
+        - "/usr/local"
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+      CMAKE_FIND_ROOT_PATH: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps_tdl/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps_tdl/googletest-src/googletest/CMakeLists.txt:93 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
+      CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
+      CMAKE_C_FLAGS: "-Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC'
+        
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_53026/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_53026.dir/build.make CMakeFiles/cmTC_53026.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC'
+        Building C object CMakeFiles/cmTC_53026.dir/src.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -DCMAKE_HAVE_LIBC_PTHREAD  -Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s  -o CMakeFiles/cmTC_53026.dir/src.c.o -c /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC/src.c
+        \x1b[01m\x1b[K/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC/src.c:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpthread.h: No such file or directory
+            1 | #include \x1b[01;31m\x1b[K<pthread.h>\x1b[m\x1b[K
+              |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_53026.dir/build.make:81: CMakeFiles/cmTC_53026.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC'
+        make: *** [Makefile:134: cmTC_53026/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps_tdl/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps_tdl/googletest-src/googletest/CMakeLists.txt:93 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
+      CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
+      CMAKE_C_FLAGS: "-Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2'
+        
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_dfbff/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_dfbff.dir/build.make CMakeFiles/cmTC_dfbff.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2'
+        Building C object CMakeFiles/cmTC_dfbff.dir/CheckFunctionExists.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_dfbff.dir/CheckFunctionExists.c.o -c /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2/CheckFunctionExists.c
+        Linking C static library libcmTC_dfbff.a
+        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_dfbff.dir/cmake_clean_target.cmake
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfbff.dir/link.txt --verbose=1
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_dfbff.a CMakeFiles/cmTC_dfbff.dir/CheckFunctionExists.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_dfbff.a
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2'
+        
+      exitCode: 0
 ...

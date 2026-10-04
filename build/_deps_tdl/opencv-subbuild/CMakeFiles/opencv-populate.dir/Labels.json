@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/CMakeFiles/opencv-populate"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/CMakeFiles/opencv-populate.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/CMakeFiles/opencv-populate-complete.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-build.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-configure.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-download.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-install.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-patch.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-test.rule"
+		},
+		{
+			"file" : "/home/brett/Documents/code/milkv/video_feed/build/_deps_tdl/opencv-subbuild/opencv-populate-prefix/src/opencv-populate-stamp/opencv-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"opencv-populate"
+		],
+		"name" : "opencv-populate"
+	}
+}
