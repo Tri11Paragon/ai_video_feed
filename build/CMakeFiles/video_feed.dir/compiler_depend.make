@@ -2006,6 +2006,7 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
   /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_fwd_decl.h \
   /home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap/parallel_hashmap/phmap_utils.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/arpa/inet.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/bitsperlong.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/int-ll64.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/asm-generic/ioctl.h \
@@ -2025,6 +2026,7 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/mman.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/posix.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/signal.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/socket.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/ctype.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/errno.h \
@@ -2041,6 +2043,8 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/videodev2.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/locale.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/netdb.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/netinet/in.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/pthread.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sched.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/signal.h \
@@ -2053,6 +2057,7 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/ioctl.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/mman.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/select.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/socket.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/time.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/syslog.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h \
@@ -2097,9 +2102,16 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/utils/vpss_helper.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_comm.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/adas_capture_type.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/capture_type.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/face_capture_type.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/person_capture_type.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/personvehicle_capture_type.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/cvi_tdl_app.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_media.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service.h \
   /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service_types.h \
+  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/modules/lib/cvi_kit/cvi_kit.h \
   /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdbool.h \
   /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stddef.h \
   /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/lib/gcc/riscv64-unknown-linux-musl/10.2.0/include/stdint.h \
@@ -2300,6 +2312,14 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service.h:
 
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/cvi_tdl_app.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/face_capture_type.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/capture_type.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/adas_capture_type.h:
+
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl.h:
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_comm.h:
@@ -2356,9 +2376,9 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/mman.h:
 
-/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/ioctl.h:
-
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/signal.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/netdb.h:
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/videodev2.h:
 
@@ -2369,6 +2389,10 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/linux/ioctl.h:
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/fcntl.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/ioctl.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/socket.h:
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/mman.h:
 
@@ -2423,6 +2447,8 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/bits/unique_lock.h:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64v0p7_xthead/lp64d/bits/gthr.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/person_capture_type.h:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/pstl/pstl_config.h:
 
@@ -2550,6 +2576,8 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/bits/cxxabi_forced.h:
 
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/netinet/in.h:
+
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/cerrno:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/atomic:
@@ -2635,6 +2663,8 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/fs/fwddecl.h:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/cmath:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/modules/lib/cvi_kit/cvi_kit.h:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/ext/string_conversions.h:
 
@@ -2818,6 +2848,8 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 
 /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/cvi_tdl_rescale_bbox.h:
 
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/arpa/inet.h:
+
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/bits/sstream.tcc:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/bits/stream_iterator.h:
@@ -2945,6 +2977,10 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: /home/brett/Documents/code/milkv/video
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/bits/stl_algo.h:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/bits/ranges_uninitialized.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/personvehicle_capture_type.h:
+
+/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/socket.h:
 
 /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/riscv64-unknown-linux-musl/include/c++/10.2.0/cassert:
 

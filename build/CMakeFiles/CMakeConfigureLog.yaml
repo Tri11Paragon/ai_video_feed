@@ -1556,8 +1556,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l"
-      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l"
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD"
     cmakeVariables:
       CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
@@ -1569,13 +1569,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l'
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD'
         
-        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_61cd6/fast
-        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_61cd6.dir/build.make CMakeFiles/cmTC_61cd6.dir/build
-        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l'
-        Building C object CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_93e6e/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_93e6e.dir/build.make CMakeFiles/cmTC_93e6e.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD'
+        Building C object CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc
         Target: riscv64-unknown-linux-musl
@@ -1583,14 +1583,14 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccTPdpLT.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccFuRjbc.s
         GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
-        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
         #include "..." search starts here:
         #include <...> search starts here:
@@ -1601,18 +1601,18 @@ events:
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o /tmp/ccTPdpLT.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o /tmp/ccFuRjbc.s
         GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
         COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
         LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-        Linking C static library libcmTC_61cd6.a
-        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_61cd6.dir/cmake_clean_target.cmake
-        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd6.dir/link.txt --verbose=1
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_61cd6.a CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_61cd6.a
-        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l'
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+        Linking C static library libcmTC_93e6e.a
+        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_93e6e.dir/cmake_clean_target.cmake
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e6e.dir/link.txt --verbose=1
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_93e6e.a CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_93e6e.a
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD'
         
       exitCode: 0
   -
@@ -1643,13 +1643,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l']
+        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD']
         ignore line: []
-        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_61cd6/fast]
-        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_61cd6.dir/build.make CMakeFiles/cmTC_61cd6.dir/build]
-        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l']
-        ignore line: [Building C object CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_93e6e/fast]
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_93e6e.dir/build.make CMakeFiles/cmTC_93e6e.dir/build]
+        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD']
+        ignore line: [Building C object CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc]
         ignore line: [Target: riscv64-unknown-linux-musl]
@@ -1657,14 +1657,14 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccTPdpLT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1 -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o -Os -version -o /tmp/ccFuRjbc.s]
         ignore line: [GNU C17 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
-        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
@@ -1675,18 +1675,18 @@ events:
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 3507d7abbd4291d8ba23c72f305d6f79]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o /tmp/ccTPdpLT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o /tmp/ccFuRjbc.s]
         ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
         ignore line: [COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
         ignore line: [LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [Linking C static library libcmTC_61cd6.a]
-        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_61cd6.dir/cmake_clean_target.cmake]
-        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd6.dir/link.txt --verbose=1]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_61cd6.a CMakeFiles/cmTC_61cd6.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_61cd6.a]
-        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-rYUS1l']
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [Linking C static library libcmTC_93e6e.a]
+        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_93e6e.dir/cmake_clean_target.cmake]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e6e.dir/link.txt --verbose=1]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_93e6e.a CMakeFiles/cmTC_93e6e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_93e6e.a]
+        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-IcpHpD']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -1704,8 +1704,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y"
-      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y"
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu"
     cmakeVariables:
       CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_CXX_FLAGS: "-Os"
@@ -1718,13 +1718,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y'
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu'
         
-        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_90c0d/fast
-        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_90c0d.dir/build.make CMakeFiles/cmTC_90c0d.dir/build
-        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y'
-        Building CXX object CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_07f05/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_07f05.dir/build.make CMakeFiles/cmTC_07f05.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu'
+        Building CXX object CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++
         Target: riscv64-unknown-linux-musl
@@ -1732,17 +1732,17 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) 
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/ccMPoopX.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/ccvUzrng.s
         GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward"
-        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"
-        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"
+        ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"
         ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"
         #include "..." search starts here:
         #include <...> search starts here:
@@ -1756,18 +1756,18 @@ events:
         	compiled by GNU C version 6.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: c78667711b16100ed13280635b840c3a
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMPoopX.s
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+         /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvUzrng.s
         GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35
         COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/
         LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/
-        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
-        Linking CXX static library libcmTC_90c0d.a
-        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_90c0d.dir/cmake_clean_target.cmake
-        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c0d.dir/link.txt --verbose=1
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_90c0d.a CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_90c0d.a
-        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y'
+        COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc'
+        Linking CXX static library libcmTC_07f05.a
+        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_07f05.dir/cmake_clean_target.cmake
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f05.dir/link.txt --verbose=1
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_07f05.a CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_07f05.a
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu'
         
       exitCode: 0
   -
@@ -1804,13 +1804,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y']
+        ignore line: [Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu']
         ignore line: []
-        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_90c0d/fast]
-        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_90c0d.dir/build.make CMakeFiles/cmTC_90c0d.dir/build]
-        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y']
-        ignore line: [Building CXX object CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_07f05/fast]
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_07f05.dir/build.make CMakeFiles/cmTC_07f05.dir/build]
+        ignore line: [make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu']
+        ignore line: [Building CXX object CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++ --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os    -v -o CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++]
         ignore line: [Target: riscv64-unknown-linux-musl]
@@ -1818,17 +1818,17 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.2.0 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/ccMPoopX.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/cc1plus -quiet -v -imultilib lib64xthead/lp64d -iprefix /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/ -isysroot /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -D_GNU_SOURCE /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64gcxthead -mabi=lp64d -march=rv64imafdc_xtheadc -auxbase-strip CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o -Os -version -o /tmp/ccvUzrng.s]
         ignore line: [GNU C++14 (Xuantie-900 linux-5.10.4 musl gcc Toolchain V2.6.1 B-20220906) version 10.2.0 (riscv64-unknown-linux-musl)]
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/riscv64-unknown-linux-musl/lib64xthead/lp64d"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include/c++/10.2.0/backward"]
-        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/include"]
-        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"]
+        ignore line: [ignoring nonexistent directory "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include"]
         ignore line: [ignoring duplicate directory "/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-linux-musl/10.2.0/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
@@ -1842,18 +1842,18 @@ events:
         ignore line: [	compiled by GNU C version 6.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: c78667711b16100ed13280635b840c3a]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMPoopX.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [ /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/as -v --traditional-format -march=rv64gcxthead -march=rv64imafdc_xtheadc -mabi=lp64d -o CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvUzrng.s]
         ignore line: [GNU assembler version 2.35 (riscv64-unknown-linux-musl) using BFD version (GNU Binutils) 2.35]
         ignore line: [COMPILER_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../libexec/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/bin/]
         ignore line: [LIBRARY_PATH=/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/../lib64xthead/lp64d/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/:/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/../lib/gcc/riscv64-unknown-linux-musl/10.2.0/../../../../riscv64-unknown-linux-musl/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
-        ignore line: [Linking CXX static library libcmTC_90c0d.a]
-        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_90c0d.dir/cmake_clean_target.cmake]
-        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c0d.dir/link.txt --verbose=1]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_90c0d.a CMakeFiles/cmTC_90c0d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_90c0d.a]
-        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-lH4b2y']
+        ignore line: [COLLECT_GCC_OPTIONS='-Os' '-v' '-o' 'CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64gcxthead' '-mabi=lp64d' '-march=rv64imafdc_xtheadc']
+        ignore line: [Linking CXX static library libcmTC_07f05.a]
+        ignore line: [/run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_07f05.dir/cmake_clean_target.cmake]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f05.dir/link.txt --verbose=1]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_07f05.a CMakeFiles/cmTC_07f05.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_07f05.a]
+        ignore line: [make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NltnAu']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -2471,8 +2471,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC"
-      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC"
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm"
     cmakeVariables:
       CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
@@ -2483,20 +2483,20 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC'
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm'
         
-        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_53026/fast
-        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_53026.dir/build.make CMakeFiles/cmTC_53026.dir/build
-        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC'
-        Building C object CMakeFiles/cmTC_53026.dir/src.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -DCMAKE_HAVE_LIBC_PTHREAD  -Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s  -o CMakeFiles/cmTC_53026.dir/src.c.o -c /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC/src.c
-        \x1b[01m\x1b[K/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC/src.c:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpthread.h: No such file or directory
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_ff833/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_ff833.dir/build.make CMakeFiles/cmTC_ff833.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm'
+        Building C object CMakeFiles/cmTC_ff833.dir/src.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/ -DCMAKE_HAVE_LIBC_PTHREAD  -Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s  -o CMakeFiles/cmTC_ff833.dir/src.c.o -c /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm/src.c
+        \x1b[01m\x1b[K/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm/src.c:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpthread.h: No such file or directory
             1 | #include \x1b[01;31m\x1b[K<pthread.h>\x1b[m\x1b[K
               |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K
         compilation terminated.
-        make[1]: *** [CMakeFiles/cmTC_53026.dir/build.make:81: CMakeFiles/cmTC_53026.dir/src.c.o] Error 1
-        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-1OTvUC'
-        make: *** [Makefile:134: cmTC_53026/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_ff833.dir/build.make:81: CMakeFiles/cmTC_ff833.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-nX5LBm'
+        make: *** [Makefile:134: cmTC_ff833/fast] Error 2
         
       exitCode: 2
   -
@@ -2510,8 +2510,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2"
-      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2"
+      source: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww"
+      binary: "/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww"
     cmakeVariables:
       CMAKE_CXX_COMPILER_TARGET: "riscv64-unknown-linux-musl"
       CMAKE_C_COMPILER_TARGET: "riscv64-unknown-linux-musl"
@@ -2522,19 +2522,19 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2'
+        Change Dir: '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww'
         
-        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_dfbff/fast
-        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_dfbff.dir/build.make CMakeFiles/cmTC_dfbff.dir/build
-        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2'
-        Building C object CMakeFiles/cmTC_dfbff.dir/CheckFunctionExists.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_dfbff.dir/CheckFunctionExists.c.o -c /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2/CheckFunctionExists.c
-        Linking C static library libcmTC_dfbff.a
-        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_dfbff.dir/cmake_clean_target.cmake
-        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfbff.dir/link.txt --verbose=1
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_dfbff.a CMakeFiles/cmTC_dfbff.dir/CheckFunctionExists.c.o
-        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_dfbff.a
-        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-NgUQw2'
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_0ff16/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_0ff16.dir/build.make CMakeFiles/cmTC_0ff16.dir/build
+        make[1]: Entering directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww'
+        Building C object CMakeFiles/cmTC_0ff16.dir/CheckFunctionExists.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-gcc --sysroot=/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/   -Os -Os -DNDEBUG -fsigned-char -fdiagnostics-color=always -std=gnu11 -s -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0ff16.dir/CheckFunctionExists.c.o -c /home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww/CheckFunctionExists.c
+        Linking C static library libcmTC_0ff16.a
+        /run/current-system/sw/bin/cmake -P CMakeFiles/cmTC_0ff16.dir/cmake_clean_target.cmake
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff16.dir/link.txt --verbose=1
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ar qc libcmTC_0ff16.a CMakeFiles/cmTC_0ff16.dir/CheckFunctionExists.c.o
+        /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-ranlib libcmTC_0ff16.a
+        make[1]: Leaving directory '/home/brett/Documents/code/milkv/video_feed/build/CMakeFiles/CMakeScratch/TryCompile-HwEeww'
         
       exitCode: 0
 ...

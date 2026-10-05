@@ -4,7 +4,7 @@
 # compile CXX with /home/brett/Documents/code/milkv/video_feed/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/brett/Documents/code/milkv/video_feed/include -I/home/brett/Documents/code/milkv/video_feed/BLT/include -I/home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_rtsp/install/include
+CXX_INCLUDES = -I/home/brett/Documents/code/milkv/video_feed/include -I/home/brett/Documents/code/milkv/video_feed/BLT/include -I/home/brett/Documents/code/milkv/video_feed/BLT/libraries/parallel-hashmap -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/modules/lib/cvi_kit -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_mpi/include/linux -I/home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_rtsp/install/include
 
 CXX_FLAGS = -Os -O3 -DNDEBUG -std=gnu++2a -Wall -Wno-comment -mcpu=c906fdv -march=rv64imafdcv0p7xthead -mcmodel=medany -mabi=lp64d
 

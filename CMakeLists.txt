@@ -72,6 +72,9 @@ add_executable(video_feed ${PROJECT_BUILD_FILES}
     BLT/src/blt/fs/file_writers.cpp
     BLT/src/blt/fs/path_helper.cpp)
 
+# $<TARGET_FILE:...> links by path, so the SDK libs need explicit build deps
+add_dependencies(video_feed cvi_tdl-static cvi_kit-static)
+
 target_compile_options(video_feed PRIVATE -Wall -Wno-comment
     -mcpu=c906fdv -march=rv64imafdcv0p7xthead -mcmodel=medany -mabi=lp64d)
 set_target_properties(video_feed PROPERTIES CXX_STANDARD 20)
@@ -87,6 +90,8 @@ target_link_options(video_feed PRIVATE
 target_include_directories(video_feed PRIVATE
     ${TDL_SDK_ROOT}/include
     ${TDL_SDK_ROOT}/include/core
+    ${TDL_SDK_ROOT}/include/cvi_tdl_app
+    ${TDL_SDK_ROOT}/modules/lib/cvi_kit
     ${MPI_ROOT}/include
     ${MPI_ROOT}/include/linux
     ${RTSP_ROOT}/install/include)
@@ -106,6 +111,7 @@ target_link_libraries(video_feed PUBLIC
     cvi_rtsp
     -Wl,--start-group
     $<TARGET_FILE:cvi_tdl-static>
+    $<TARGET_FILE:cvi_kit-static>
     ${SDK_SYS_LIB}/libcviruntime.so
     ${SDK_SYS_LIB}/libcvikernel.so
     ${SDK_SYS_LIB}/libcvimath.so

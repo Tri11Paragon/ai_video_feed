@@ -268,6 +268,13 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: \
  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service_types.h \
  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/core/cvi_tdl_core.h \
  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_media.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/modules/lib/cvi_kit/cvi_kit.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/cvi_tdl_app.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/adas_capture_type.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/capture_type.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/face_capture_type.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/person_capture_type.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/cvi_tdl_app/capture/personvehicle_capture_type.h \
  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/tdl_sdk/include/service/cvi_tdl_service.h \
  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_rtsp/install/include/cvi_rtsp/rtsp.h \
  /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/cvi_rtsp/install/include/cvi_rtsp/defs.h \
@@ -334,4 +341,9 @@ CMakeFiles/video_feed.dir/src/yolo.cpp.o: \
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/meta/function.h \
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/meta/passthrough.h \
  /home/brett/Documents/code/milkv/video_feed/BLT/include/blt/meta/tuple_filters.h \
- /home/brett/Documents/code/milkv/video_feed/src/classes.h
+ /home/brett/Documents/code/milkv/video_feed/src/classes.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/sys/socket.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/socket.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/netinet/in.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/netdb.h \
+ /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/buildroot/output/milkv-duos-musl-riscv64-sd/host/riscv64-buildroot-linux-musl/sysroot/usr/include/arpa/inet.h

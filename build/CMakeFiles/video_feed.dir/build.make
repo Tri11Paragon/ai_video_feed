@@ -272,6 +272,7 @@ video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/fs/file_writers.cpp.o
 video_feed: CMakeFiles/video_feed.dir/BLT/src/blt/fs/path_helper.cpp.o
 video_feed: CMakeFiles/video_feed.dir/build.make
 video_feed: tdl_sdk-build/modules/libcvi_tdl.a
+video_feed: tdl_sdk-build/modules/lib/cvi_kit/libcvi_kit.a
 video_feed: /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/install/soc_sg2000_milkv_duos_musl_riscv64_sd/tmp-rootfs/mnt/system/lib/libcviruntime.so
 video_feed: /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/install/soc_sg2000_milkv_duos_musl_riscv64_sd/tmp-rootfs/mnt/system/lib/libcvikernel.so
 video_feed: /home/brett/Documents/code/milkv/video_feed/duo-buildroot-sdk-v2/install/soc_sg2000_milkv_duos_musl_riscv64_sd/tmp-rootfs/mnt/system/lib/libcvimath.so

@@ -1024,4 +1024,31 @@ constexpr std::array<const char*, 1000> imagenet_classes = {
     "toilet tissue"
 };
 
+// COCO-80 class labels (standard detection order) for YOLOv8 det/seg models.
+static const char* coco_classes[80] = {
+    "person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck", "boat",
+    "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
+    "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack",
+    "umbrella", "handbag", "tie", "suitcase", "frisbee", "skis", "snowboard", "sports ball",
+    "kite", "baseball bat", "baseball glove", "skateboard", "surfboard", "tennis racket",
+    "bottle", "wine glass", "cup", "fork", "knife", "spoon", "bowl", "banana", "apple",
+    "sandwich", "orange", "broccoli", "carrot", "hot dog", "pizza", "donut", "cake", "chair",
+    "couch", "potted plant", "bed", "dining table", "toilet", "tv", "laptop", "mouse",
+    "remote", "keyboard", "cell phone", "microwave", "oven", "toaster", "sink", "refrigerator",
+    "book", "clock", "vase", "scissors", "teddy bear", "hair drier", "toothbrush"
+};
+
+// yolov8n_det_face_head_person_pet class order (index 0..3).
+static const char* fhp_classes[4] = {
+    "face", "head", "person", "pet"
+};
+
+// yolov8n_det_person_vehicle (PERSON_VEHICLE_DETECTION, 7 classes).
+// NOTE: vendor ships no name table for this model (cvi_tdl_core.cpp marks it
+// "TODO:need class mapping"); this order is best-effort from the model family
+// convention - sanity-check on stream and we can re-order.
+static const char* pv_classes[7] = {
+    "car", "bus", "truck", "tricycle", "person", "bicycle", "motorbike"
+};
+
 #endif //VIDEO_FEED_CLASSES_H
